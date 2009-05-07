@@ -103,6 +103,10 @@
 			9F9002BC0FB31486002E8F74 /* PlistBookmark */ = 9F9002BC0FB31486002E8F74 /* PlistBookmark */;
 			9F9002BD0FB31486002E8F74 /* PBXTextBookmark */ = 9F9002BD0FB31486002E8F74 /* PBXTextBookmark */;
 			9F9002BE0FB31486002E8F74 /* PBXTextBookmark */ = 9F9002BE0FB31486002E8F74 /* PBXTextBookmark */;
+			9F9002EB0FB31E97002E8F74 /* PBXTextBookmark */ = 9F9002EB0FB31E97002E8F74 /* PBXTextBookmark */;
+			9F9002EC0FB31E97002E8F74 /* PBXBookmark */ = 9F9002EC0FB31E97002E8F74 /* PBXBookmark */;
+			9F9002ED0FB31E97002E8F74 /* PBXTextBookmark */ = 9F9002ED0FB31E97002E8F74 /* PBXTextBookmark */;
+			9F9002EE0FB31E97002E8F74 /* PBXTextBookmark */ = 9F9002EE0FB31E97002E8F74 /* PBXTextBookmark */;
 			9FC38F720FB25DCD00A8408F = 9FC38F720FB25DCD00A8408F /* PlistBookmark */;
 			9FC38F730FB25DCD00A8408F = 9FC38F730FB25DCD00A8408F /* PBXTextBookmark */;
 			9FC38F740FB25DCD00A8408F = 9FC38F740FB25DCD00A8408F /* PlistBookmark */;
@@ -273,6 +277,54 @@
 		vrLen = 914;
 		vrLoc = 0;
 	};
+	9F9002D00FB31C98002E8F74 /* AdMobView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {759, 720}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1322}";
+		};
+	};
+	9F9002EB0FB31E97002E8F74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		name = "TweetViewController.m: 83";
+		rLen = 0;
+		rLoc = 2890;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 0;
+	};
+	9F9002EC0FB31E97002E8F74 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9F9002D00FB31C98002E8F74 /* AdMobView.h */;
+	};
+	9F9002ED0FB31E97002E8F74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		name = "TweetViewController.m: 83";
+		rLen = 0;
+		rLoc = 2890;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 0;
+	};
+	9F9002EE0FB31E97002E8F74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F9002D00FB31C98002E8F74 /* AdMobView.h */;
+		name = "AdMobView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 0;
+	};
+	9F9002F00FB31ED8002E8F74 /* AdViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1353, 1332}}";
+			sepNavSelRange = "{1357, 0}";
+			sepNavVisRange = "{732, 1203}";
+		};
+	};
 	9FC38F600FB25CE200A8408F /* JustTweet Lite */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -376,7 +428,7 @@
 	};
 	9FC38F850FB25E7600A8408F /* TweetViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1452, 2880}}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 3294}}";
 			sepNavSelRange = "{2890, 0}";
 			sepNavVisRange = "{0, 914}";
 			sepNavWindowFrame = "{{15, 312}, {748, 561}}";

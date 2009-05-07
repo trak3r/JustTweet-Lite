@@ -18,6 +18,11 @@
 		9F9002AE0FB31061002E8F74 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002AD0FB31061002E8F74 /* libsqlite3.0.dylib */; };
 		9F9002B10FB31085002E8F74 /* libMMTrackingDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002AF0FB31085002E8F74 /* libMMTrackingDevice.a */; };
 		9F9002B20FB31085002E8F74 /* libMMTrackingSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002B00FB31085002E8F74 /* libMMTrackingSimulator.a */; };
+		9F9002CD0FB31C83002E8F74 /* libAdMobDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002CB0FB31C83002E8F74 /* libAdMobDevice.a */; };
+		9F9002CE0FB31C83002E8F74 /* libAdMobSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002CC0FB31C83002E8F74 /* libAdMobSimulator.a */; };
+		9F9002D20FB31CDD002E8F74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002D10FB31CDD002E8F74 /* QuartzCore.framework */; };
+		9F9002D60FB31CEF002E8F74 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002D50FB31CEF002E8F74 /* AddressBook.framework */; };
+		9F9002F10FB31ED8002E8F74 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9002F00FB31ED8002E8F74 /* AdViewController.m */; };
 		9FC38F6E0FB25D7400A8408F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC38F6D0FB25D7400A8408F /* icon.png */; };
 		9FC38F860FB25E7600A8408F /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */; };
 		9FC38F890FB25ED400A8408F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38F880FB25ED400A8408F /* SettingsViewController.m */; };
@@ -40,6 +45,14 @@
 		9F9002AF0FB31085002E8F74 /* libMMTrackingDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMMTrackingDevice.a; sourceTree = "<group>"; };
 		9F9002B00FB31085002E8F74 /* libMMTrackingSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMMTrackingSimulator.a; sourceTree = "<group>"; };
 		9F9002B30FB310AD002E8F74 /* MMTrackingMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTrackingMgr.h; sourceTree = "<group>"; };
+		9F9002CB0FB31C83002E8F74 /* libAdMobDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdMobDevice.a; path = ../../Downloads/admob_iphone_sdk/AdMob/libAdMobDevice.a; sourceTree = SOURCE_ROOT; };
+		9F9002CC0FB31C83002E8F74 /* libAdMobSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdMobSimulator.a; path = ../../Downloads/admob_iphone_sdk/AdMob/libAdMobSimulator.a; sourceTree = SOURCE_ROOT; };
+		9F9002CF0FB31C98002E8F74 /* AdMobDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobDelegateProtocol.h; sourceTree = "<group>"; };
+		9F9002D00FB31C98002E8F74 /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobView.h; sourceTree = "<group>"; };
+		9F9002D10FB31CDD002E8F74 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9F9002D50FB31CEF002E8F74 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		9F9002EF0FB31ED8002E8F74 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		9F9002F00FB31ED8002E8F74 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
 		9FC38F6D0FB25D7400A8408F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		9FC38F840FB25E7600A8408F /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
 		9FC38F850FB25E7600A8408F /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
@@ -60,6 +73,10 @@
 				9F9002AE0FB31061002E8F74 /* libsqlite3.0.dylib in Frameworks */,
 				9F9002B10FB31085002E8F74 /* libMMTrackingDevice.a in Frameworks */,
 				9F9002B20FB31085002E8F74 /* libMMTrackingSimulator.a in Frameworks */,
+				9F9002CD0FB31C83002E8F74 /* libAdMobDevice.a in Frameworks */,
+				9F9002CE0FB31C83002E8F74 /* libAdMobSimulator.a in Frameworks */,
+				9F9002D20FB31CDD002E8F74 /* QuartzCore.framework in Frameworks */,
+				9F9002D60FB31CEF002E8F74 /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +119,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9F9002B30FB310AD002E8F74 /* MMTrackingMgr.h */,
+				9F9002E90FB31E82002E8F74 /* AdMob */,
+				9F9002EA0FB31E8C002E8F74 /* Medialytics */,
 				32CA4F630368D1EE00C91783 /* JustTweet_Lite_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -122,16 +140,55 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F9002AF0FB31085002E8F74 /* libMMTrackingDevice.a */,
-				9F9002B00FB31085002E8F74 /* libMMTrackingSimulator.a */,
-				9F9002AD0FB31061002E8F74 /* libsqlite3.0.dylib */,
-				9F9002A90FB31018002E8F74 /* CoreLocation.framework */,
+				9F9002DA0FB31E5A002E8F74 /* AdMob */,
+				9F9002DB0FB31E61002E8F74 /* Medialytics */,
 				9F9002A50FB31007002E8F74 /* SystemConfiguration.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F9002DA0FB31E5A002E8F74 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				9F9002D50FB31CEF002E8F74 /* AddressBook.framework */,
+				9F9002D10FB31CDD002E8F74 /* QuartzCore.framework */,
+				9F9002CB0FB31C83002E8F74 /* libAdMobDevice.a */,
+				9F9002CC0FB31C83002E8F74 /* libAdMobSimulator.a */,
+			);
+			name = AdMob;
+			sourceTree = "<group>";
+		};
+		9F9002DB0FB31E61002E8F74 /* Medialytics */ = {
+			isa = PBXGroup;
+			children = (
+				9F9002AF0FB31085002E8F74 /* libMMTrackingDevice.a */,
+				9F9002B00FB31085002E8F74 /* libMMTrackingSimulator.a */,
+				9F9002AD0FB31061002E8F74 /* libsqlite3.0.dylib */,
+				9F9002A90FB31018002E8F74 /* CoreLocation.framework */,
+			);
+			name = Medialytics;
+			sourceTree = "<group>";
+		};
+		9F9002E90FB31E82002E8F74 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				9F9002EF0FB31ED8002E8F74 /* AdViewController.h */,
+				9F9002F00FB31ED8002E8F74 /* AdViewController.m */,
+				9F9002CF0FB31C98002E8F74 /* AdMobDelegateProtocol.h */,
+				9F9002D00FB31C98002E8F74 /* AdMobView.h */,
+			);
+			name = AdMob;
+			sourceTree = "<group>";
+		};
+		9F9002EA0FB31E8C002E8F74 /* Medialytics */ = {
+			isa = PBXGroup;
+			children = (
+				9F9002B30FB310AD002E8F74 /* MMTrackingMgr.h */,
+			);
+			name = Medialytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +249,7 @@
 				1D3623260D0F684500981E51 /* JustTweetAppDelegate.m in Sources */,
 				9FC38F860FB25E7600A8408F /* TweetViewController.m in Sources */,
 				9FC38F890FB25ED400A8408F /* SettingsViewController.m in Sources */,
+				9F9002F10FB31ED8002E8F74 /* AdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +269,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Downloads/admob_iphone_sdk/AdMob\"",
 				);
 				PRODUCT_NAME = JustTweet;
 			};
@@ -227,6 +286,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Downloads/admob_iphone_sdk/AdMob\"",
 				);
 				PRODUCT_NAME = JustTweet;
 			};
