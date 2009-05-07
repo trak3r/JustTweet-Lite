@@ -9,6 +9,7 @@
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<integer value="25"/>
+			<integer value="13"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -76,7 +77,7 @@
 						<object class="IBUITextView" id="264468062">
 							<reference key="NSNextResponder" ref="826871393"/>
 							<int key="NSvFlags">274</int>
-							<string key="NSFrame">{{0, 100}, {320, 360}}</string>
+							<string key="NSFrame">{{0, 91}, {320, 369}}</string>
 							<reference key="NSSuperview" ref="826871393"/>
 							<bool key="IBUIClipsSubviews">YES</bool>
 							<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -101,13 +102,7 @@
 							<int key="NSvFlags">290</int>
 							<string key="NSFrame">{{0, 44}, {320, 48}}</string>
 							<reference key="NSSuperview" ref="826871393"/>
-							<object class="NSColor" key="IBUIBackgroundColor">
-								<int key="NSColorSpace">3</int>
-								<bytes key="NSWhite">MQA</bytes>
-								<object class="NSColorSpace" key="NSCustomColorSpace" id="902050215">
-									<int key="NSID">2</int>
-								</object>
-							</object>
+							<reference key="IBUIBackgroundColor" ref="529090221"/>
 							<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 						</object>
 					</object>
@@ -116,7 +111,9 @@
 					<object class="NSColor" key="IBUIBackgroundColor">
 						<int key="NSColorSpace">3</int>
 						<bytes key="NSWhite">MQA</bytes>
-						<reference key="NSCustomColorSpace" ref="902050215"/>
+						<object class="NSColorSpace" key="NSCustomColorSpace" id="902050215">
+							<int key="NSID">2</int>
+						</object>
 					</object>
 					<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				</object>
@@ -124,7 +121,7 @@
 			</object>
 			<object class="IBUIViewController" id="653092622">
 				<object class="IBUIView" key="IBUIView" id="576915705">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">274</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -204,7 +201,7 @@
 						<object class="IBUIButton" id="602686233">
 							<reference key="NSNextResponder" ref="576915705"/>
 							<int key="NSvFlags">290</int>
-							<string key="NSFrame">{{20, 182}, {280, 37}}</string>
+							<string key="NSFrame">{{20, 176}, {280, 37}}</string>
 							<reference key="NSSuperview" ref="576915705"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -228,6 +225,7 @@
 						</object>
 					</object>
 					<string key="NSFrameSize">{320, 460}</string>
+					<reference key="NSSuperview"/>
 					<object class="NSColor" key="IBUIBackgroundColor">
 						<int key="NSColorSpace">3</int>
 						<bytes key="NSWhite">MQA</bytes>
@@ -237,7 +235,7 @@
 				</object>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 			</object>
-			<object class="IBUICustomObject" id="639563132"/>
+			<object class="IBUICustomObject" id="766220907"/>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<object class="NSMutableArray" key="connectionRecords">
@@ -350,7 +348,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">view</string>
-						<reference key="source" ref="639563132"/>
+						<reference key="source" ref="766220907"/>
 						<reference key="destination" ref="285421528"/>
 					</object>
 					<int key="connectionID">50</int>
@@ -452,10 +450,10 @@
 						<reference key="object" ref="826871393"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="264468062"/>
 							<reference ref="540129216"/>
 							<reference ref="285421528"/>
 							<reference ref="586397157"/>
+							<reference ref="264468062"/>
 						</object>
 						<reference key="parent" ref="118838968"/>
 						<string key="objectName">Tweet View</string>
@@ -517,7 +515,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">49</int>
-						<reference key="object" ref="639563132"/>
+						<reference key="object" ref="766220907"/>
 						<reference key="parent" ref="957960031"/>
 						<string key="objectName">Ad View Controller</string>
 					</object>
