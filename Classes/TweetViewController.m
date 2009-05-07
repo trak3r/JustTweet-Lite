@@ -80,7 +80,7 @@
 	} else {
 		NSString *msg;
 		if(-1012==error.code){
-			msg = @"Invalid username or password.  Please review and correct your credentials from the Settings application then try again.  Thank you.";
+			msg = @"Invalid username or password.  Please review and correct your credentials from the Settings application and try again.  Thank you.";
 		}else{
 			msg = [NSString stringWithFormat:@"Received error:\n\"%@\"%@", 
 				   [error localizedDescription],

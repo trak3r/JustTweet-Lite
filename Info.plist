@@ -26,5 +26,7 @@
 	<true/>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
+	<key>MMAppID</key>
+	<string>62ad2f313a35702d</string>
 </dict>
 </plist>
