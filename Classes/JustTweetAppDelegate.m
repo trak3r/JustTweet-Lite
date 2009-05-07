@@ -17,10 +17,12 @@
 @synthesize tweetViewController;
 @synthesize settingsViewController;
 
+/*
 + (void)initialize {
 	//[[MMTrackingMgr sharedInstance] startDefaultTrackingWithoutLocation];
 	[[MMTrackingMgr sharedInstance] startDefaultTracking];
 }
+*/
 
 - (BOOL)isNullOrEmpty:(NSString *)key {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
