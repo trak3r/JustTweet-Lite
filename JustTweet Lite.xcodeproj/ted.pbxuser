@@ -1,5 +1,12 @@
 // !$*UTF8*$!
 {
+	1D3623250D0F684500981E51 /* JustTweet_LiteAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {662, 540}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 490}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* JustTweet Lite */ = {
 		activeExec = 0;
 		executables = (
@@ -10,13 +17,67 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 9FC38F600FB25CE200A8408F /* JustTweet Lite */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* JustTweet Lite */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* JustTweet Lite */,
+		);
 		codeSenseManager = 9FC38F6B0FB25D0100A8408F /* Code sense */;
 		executables = (
 			9FC38F600FB25CE200A8408F /* JustTweet Lite */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					472,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					432,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
 			PBXPerProjectTemplateStateSaveDate = 263347426;
 			PBXWorkspaceStateSaveDate = 263347426;
+		};
+		perUserProjectItems = {
+			9FC38F720FB25DCD00A8408F /* PlistBookmark */ = 9FC38F720FB25DCD00A8408F /* PlistBookmark */;
+			9FC38F730FB25DCD00A8408F /* PBXTextBookmark */ = 9FC38F730FB25DCD00A8408F /* PBXTextBookmark */;
+			9FC38F740FB25DCD00A8408F /* PlistBookmark */ = 9FC38F740FB25DCD00A8408F /* PlistBookmark */;
+			9FC38F750FB25DCD00A8408F /* PBXTextBookmark */ = 9FC38F750FB25DCD00A8408F /* PBXTextBookmark */;
+			9FC38F830FB25DEC00A8408F /* PBXTextBookmark */ = 9FC38F830FB25DEC00A8408F /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9FC38F6A0FB25D0100A8408F /* Source Control */;
 		userBuildSettings = {
@@ -29,12 +90,13 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -55,5 +117,59 @@
 	9FC38F6B0FB25D0100A8408F /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	9FC38F720FB25DCD00A8408F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/ted/Desktop/JustTweet Lite/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	9FC38F730FB25DCD00A8408F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* JustTweet_LiteAppDelegate.m */;
+		name = "JustTweet_LiteAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 495;
+		vrLoc = 0;
+	};
+	9FC38F740FB25DCD00A8408F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/ted/Desktop/JustTweet Lite/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	9FC38F750FB25DCD00A8408F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* JustTweet_LiteAppDelegate.m */;
+		name = "JustTweet_LiteAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 0;
+	};
+	9FC38F830FB25DEC00A8408F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* JustTweet_LiteAppDelegate.m */;
+		name = "JustTweet_LiteAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 0;
 	};
 }
