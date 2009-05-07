@@ -12,12 +12,12 @@
 #import "JustTweetAppDelegate.h" // for settings bundle key constants
 
 @interface TweetViewController : UIViewController <UITextViewDelegate> {
-	IBOutlet UIBarButtonItem *countDown;
+	IBOutlet UINavigationItem *countDown;
 	IBOutlet UITextView *tweetText;
 	IBOutlet UIActivityIndicatorView *activityView;
 }
 
-@property (retain, nonatomic) UIBarButtonItem *countDown;
+@property (retain, nonatomic) UINavigationItem *countDown;
 @property (retain, nonatomic) UITextView *tweetText;
 @property (retain, nonatomic) UIActivityIndicatorView *activityView;
 
