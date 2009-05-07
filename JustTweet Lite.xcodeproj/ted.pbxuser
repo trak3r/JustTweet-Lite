@@ -20,6 +20,13 @@
 			9FC38F600FB25CE200A8408F /* JustTweet Lite */,
 		);
 	};
+	28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {756, 13078}}";
+			sepNavSelRange = "{31764, 0}";
+			sepNavVisRange = "{0, 1634}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 9FC38F600FB25CE200A8408F /* JustTweet Lite */;
@@ -107,6 +114,13 @@
 			9F9002EC0FB31E97002E8F74 /* PBXBookmark */ = 9F9002EC0FB31E97002E8F74 /* PBXBookmark */;
 			9F9002ED0FB31E97002E8F74 /* PBXTextBookmark */ = 9F9002ED0FB31E97002E8F74 /* PBXTextBookmark */;
 			9F9002EE0FB31E97002E8F74 /* PBXTextBookmark */ = 9F9002EE0FB31E97002E8F74 /* PBXTextBookmark */;
+			9F9002F80FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002F80FB3208B002E8F74 /* PBXTextBookmark */;
+			9F9002F90FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002F90FB3208B002E8F74 /* PBXTextBookmark */;
+			9F9002FA0FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002FA0FB3208B002E8F74 /* PBXTextBookmark */;
+			9F9002FB0FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002FB0FB3208B002E8F74 /* PBXTextBookmark */;
+			9F9002FC0FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002FC0FB3208B002E8F74 /* PBXTextBookmark */;
+			9F9002FD0FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002FD0FB3208B002E8F74 /* PBXTextBookmark */;
+			9F9002FE0FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002FE0FB3208B002E8F74 /* PBXTextBookmark */;
 			9FC38F720FB25DCD00A8408F = 9FC38F720FB25DCD00A8408F /* PlistBookmark */;
 			9FC38F730FB25DCD00A8408F = 9FC38F730FB25DCD00A8408F /* PBXTextBookmark */;
 			9FC38F740FB25DCD00A8408F = 9FC38F740FB25DCD00A8408F /* PlistBookmark */;
@@ -325,6 +339,76 @@
 			sepNavVisRange = "{732, 1203}";
 		};
 	};
+	9F9002F80FB3208B002E8F74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F9002D00FB31C98002E8F74 /* AdMobView.h */;
+		name = "AdMobView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 0;
+	};
+	9F9002F90FB3208B002E8F74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F9002F00FB31ED8002E8F74 /* AdViewController.m */;
+		name = "AdViewController.m: 39";
+		rLen = 0;
+		rLoc = 1357;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 732;
+	};
+	9F9002FA0FB3208B002E8F74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */;
+		name = "MainWindow.xib: 727";
+		rLen = 0;
+		rLoc = 31764;
+		rType = 0;
+		vrLen = 1467;
+		vrLoc = 0;
+	};
+	9F9002FB0FB3208B002E8F74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F9002D00FB31C98002E8F74 /* AdMobView.h */;
+		name = "AdMobView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 0;
+	};
+	9F9002FC0FB3208B002E8F74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F9002F00FB31ED8002E8F74 /* AdViewController.m */;
+		name = "AdViewController.m: 39";
+		rLen = 0;
+		rLoc = 1357;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 732;
+	};
+	9F9002FD0FB3208B002E8F74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */;
+		name = "MainWindow.xib: 727";
+		rLen = 0;
+		rLoc = 31764;
+		rType = 0;
+		vrLen = 1467;
+		vrLoc = 0;
+	};
+	9F9002FE0FB3208B002E8F74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		name = "TweetViewController.m: 83";
+		rLen = 0;
+		rLoc = 2903;
+		rType = 0;
+		vrLen = 774;
+		vrLoc = 0;
+	};
 	9FC38F600FB25CE200A8408F /* JustTweet Lite */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -428,9 +512,9 @@
 	};
 	9FC38F850FB25E7600A8408F /* TweetViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 3294}}";
-			sepNavSelRange = "{2890, 0}";
-			sepNavVisRange = "{0, 914}";
+			sepNavIntBoundsRect = "{{0, 0}, {1452, 3096}}";
+			sepNavSelRange = "{2903, 0}";
+			sepNavVisRange = "{0, 774}";
 			sepNavWindowFrame = "{{15, 312}, {748, 561}}";
 		};
 	};

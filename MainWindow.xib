@@ -56,7 +56,6 @@
 							<int key="NSvFlags">290</int>
 							<string key="NSFrameSize">{320, 44}</string>
 							<reference key="NSSuperview" ref="826871393"/>
-							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 							<object class="NSArray" key="IBUIItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
@@ -79,7 +78,6 @@
 							<int key="NSvFlags">274</int>
 							<string key="NSFrame">{{0, 100}, {320, 360}}</string>
 							<reference key="NSSuperview" ref="826871393"/>
-							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClipsSubviews">YES</bool>
 							<bool key="IBUIMultipleTouchEnabled">YES</bool>
 							<bool key="IBUIShowsHorizontalScrollIndicator">NO</bool>
@@ -91,7 +89,7 @@
 						<object class="IBUIActivityIndicatorView" id="586397157">
 							<reference key="NSNextResponder" ref="826871393"/>
 							<int key="NSvFlags">-2147483392</int>
-							<string key="NSFrame">{{150, 242}, {20, 20}}</string>
+							<string key="NSFrame">{{150, 173}, {20, 20}}</string>
 							<reference key="NSSuperview" ref="826871393"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -239,7 +237,7 @@
 				</object>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 			</object>
-			<object class="IBUICustomObject" id="1064456941"/>
+			<object class="IBUICustomObject" id="639563132"/>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<object class="NSMutableArray" key="connectionRecords">
@@ -352,7 +350,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">view</string>
-						<reference key="source" ref="1064456941"/>
+						<reference key="source" ref="639563132"/>
 						<reference key="destination" ref="285421528"/>
 					</object>
 					<int key="connectionID">50</int>
@@ -456,8 +454,8 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="264468062"/>
 							<reference ref="540129216"/>
-							<reference ref="586397157"/>
 							<reference ref="285421528"/>
+							<reference ref="586397157"/>
 						</object>
 						<reference key="parent" ref="118838968"/>
 						<string key="objectName">Tweet View</string>
@@ -519,7 +517,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">49</int>
-						<reference key="object" ref="1064456941"/>
+						<reference key="object" ref="639563132"/>
 						<reference key="parent" ref="957960031"/>
 						<string key="objectName">Ad View Controller</string>
 					</object>
