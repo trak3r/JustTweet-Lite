@@ -11,6 +11,43 @@
 
 @implementation SettingsViewController
 
+@synthesize usernameTextField;
+@synthesize passwordTextField;
+
+- (void)switchToTweetView {
+	[(JustTweetAppDelegate *)[[UIApplication sharedApplication] delegate] showTweetView];
+}
+
+- (void)storeUsernameAndPassword {
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	[defaults setValue:usernameTextField.text forKey:kTwitterUsername];
+	[defaults setValue:passwordTextField.text forKey:kTwitterPassword];
+}
+
+- (BOOL)validated {
+	return [(JustTweetAppDelegate *)[[UIApplication sharedApplication] delegate] hasValidAccountSettings];
+}
+
+- (void)showInvalidAccountAlert {
+	UIAlertView *alert = [[UIAlertView alloc]
+						  initWithTitle:@"Oops..." 
+						  message:@"Please provide valid Twitter account credentials." 
+						  delegate:self
+						  cancelButtonTitle:@"OK"
+						  otherButtonTitles:nil];
+	[alert show];
+	[alert release];
+}
+
+- (IBAction)saveButtonPressed:(id)sender {
+	[self storeUsernameAndPassword];
+	if([self validated]) {
+		[self switchToTweetView];
+	} else {
+		[self showInvalidAccountAlert];
+	}
+}
+
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {

@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JustTweetAppDelegate.h" // for settings bundle key constants and view switch
 
 @interface SettingsViewController : UIViewController {
-
+	IBOutlet UITextField *usernameTextField;
+	IBOutlet UITextField *passwordTextField;
 }
+
+@property (retain, nonatomic) UITextField *usernameTextField;
+@property (retain, nonatomic) UITextField *passwordTextField;
+
+- (IBAction)saveButtonPressed:(id)sender;
 
 @end
