@@ -1,0 +1,59 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* JustTweet Lite */ = {
+		activeExec = 0;
+		executables = (
+			9FC38F600FB25CE200A8408F /* JustTweet Lite */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 9FC38F600FB25CE200A8408F /* JustTweet Lite */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* JustTweet Lite */;
+		codeSenseManager = 9FC38F6B0FB25D0100A8408F /* Code sense */;
+		executables = (
+			9FC38F600FB25CE200A8408F /* JustTweet Lite */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 263347426;
+			PBXWorkspaceStateSaveDate = 263347426;
+		};
+		sourceControlManager = 9FC38F6A0FB25D0100A8408F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	9FC38F600FB25CE200A8408F /* JustTweet Lite */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "JustTweet Lite";
+		sourceDirectories = (
+		);
+	};
+	9FC38F6A0FB25D0100A8408F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	9FC38F6B0FB25D0100A8408F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
