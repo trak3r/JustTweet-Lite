@@ -15,6 +15,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		9F3100480FB49C5D00F33970 /* libAdMobDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3100460FB49C5D00F33970 /* libAdMobDevice.a */; };
 		9F3100490FB49C5D00F33970 /* libAdMobSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3100470FB49C5D00F33970 /* libAdMobSimulator.a */; };
+		9F31004F0FB4A1E700F33970 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F31004E0FB4A1E700F33970 /* SettingsViewController.m */; };
 		9F9002A60FB31007002E8F74 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002A50FB31007002E8F74 /* SystemConfiguration.framework */; };
 		9F9002AA0FB31018002E8F74 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002A90FB31018002E8F74 /* CoreLocation.framework */; };
 		9F9002AE0FB31061002E8F74 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002AD0FB31061002E8F74 /* libsqlite3.0.dylib */; };
@@ -25,7 +26,6 @@
 		9F9002F10FB31ED8002E8F74 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9002F00FB31ED8002E8F74 /* AdViewController.m */; };
 		9FC38F6E0FB25D7400A8408F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC38F6D0FB25D7400A8408F /* icon.png */; };
 		9FC38F860FB25E7600A8408F /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */; };
-		9FC38F890FB25ED400A8408F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38F880FB25ED400A8408F /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +41,8 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F3100460FB49C5D00F33970 /* libAdMobDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobDevice.a; sourceTree = "<group>"; };
 		9F3100470FB49C5D00F33970 /* libAdMobSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobSimulator.a; sourceTree = "<group>"; };
+		9F31004D0FB4A1E700F33970 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9F31004E0FB4A1E700F33970 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		9F9002A50FB31007002E8F74 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9F9002A90FB31018002E8F74 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		9F9002AD0FB31061002E8F74 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
@@ -56,8 +58,6 @@
 		9FC38F6D0FB25D7400A8408F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		9FC38F840FB25E7600A8408F /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
 		9FC38F850FB25E7600A8408F /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
-		9FC38F870FB25ED400A8408F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		9FC38F880FB25ED400A8408F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +88,10 @@
 			children = (
 				1D3623240D0F684500981E51 /* JustTweetAppDelegate.h */,
 				1D3623250D0F684500981E51 /* JustTweetAppDelegate.m */,
-				9FC38F870FB25ED400A8408F /* SettingsViewController.h */,
-				9FC38F880FB25ED400A8408F /* SettingsViewController.m */,
 				9FC38F840FB25E7600A8408F /* TweetViewController.h */,
 				9FC38F850FB25E7600A8408F /* TweetViewController.m */,
+				9F31004D0FB4A1E700F33970 /* SettingsViewController.h */,
+				9F31004E0FB4A1E700F33970 /* SettingsViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -248,8 +248,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* JustTweetAppDelegate.m in Sources */,
 				9FC38F860FB25E7600A8408F /* TweetViewController.m in Sources */,
-				9FC38F890FB25ED400A8408F /* SettingsViewController.m in Sources */,
 				9F9002F10FB31ED8002E8F74 /* AdViewController.m in Sources */,
+				9F31004F0FB4A1E700F33970 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

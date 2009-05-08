@@ -7,15 +7,13 @@
 //
 
 #import "JustTweetAppDelegate.h"
-#import "TweetViewController.h"
-#import "SettingsViewController.h"
-#import "MMTrackingMgr.h"
+//#import "MMTrackingMgr.h"
 
 @implementation JustTweetAppDelegate
 
 @synthesize window;
-@synthesize tweetViewController;
-@synthesize settingsViewController;
+@synthesize tweetView;
+@synthesize settingsView;
 
 /*
 + (void)initialize {
@@ -43,13 +41,13 @@
 }
 
 - (void)showSettingsView {
-    [window addSubview:settingsViewController.view];
+    [window addSubview:settingsView];
 }
 
 - (void)showTweetView {
-	[settingsViewController.view removeFromSuperview];
-	[settingsViewController release]; // we won't need it again
-    [window addSubview:tweetViewController.view];
+	[settingsView removeFromSuperview];
+	[settingsView release]; // we won't need it again
+    [window addSubview:tweetView];
 }
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
@@ -64,11 +62,11 @@
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-	[tweetViewController storeTweet];
+//	[tweetView.controller storeTweet];
 }
 
 - (void)dealloc {
-    [tweetViewController release];
+    [tweetView release];
     [window release];
     [super dealloc];
 }

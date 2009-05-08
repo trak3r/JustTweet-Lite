@@ -12,18 +12,15 @@
 #define kTwitterPassword @"twitter_password"
 #define kLastTweet @"last_tweet"
 
-@class TweetViewController;
-@class SettingsViewController;
-
 @interface JustTweetAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    TweetViewController *tweetViewController;
-    SettingsViewController *settingsViewController;
+    UIView *tweetView;
+    UIView *settingsView;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet TweetViewController *tweetViewController;
-@property (nonatomic, retain) IBOutlet SettingsViewController *settingsViewController;
+@property (nonatomic, retain) IBOutlet UIView *tweetView;
+@property (nonatomic, retain) IBOutlet UIView *settingsView;
 
 - (void)showTweetView;
 - (BOOL)hasValidAccountSettings;
