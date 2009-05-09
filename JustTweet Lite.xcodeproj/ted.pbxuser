@@ -35,6 +35,10 @@
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* JustTweet Lite */,
 		);
+		breakpoints = (
+			9F50419B0FB6222600EE3BCF /* TweetViewController.m:118 */,
+			9F5041AC0FB6229600EE3BCF /* TweetViewController.m:131 */,
+		);
 		codeSenseManager = 9FC38F6B0FB25D0100A8408F /* Code sense */;
 		executables = (
 			9FC38F600FB25CE200A8408F /* JustTweet Lite */,
@@ -59,7 +63,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					572,
+					630,
 					20,
 					48,
 					43,
@@ -98,42 +102,22 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 263591735;
-			PBXWorkspaceStateSaveDate = 263591735;
+			PBXPerProjectTemplateStateSaveDate = 263594093;
+			PBXWorkspaceStateSaveDate = 263594093;
 		};
 		perUserProjectItems = {
-			9F0EFB3C0FB617450012FDF2 /* PBXTextBookmark */ = 9F0EFB3C0FB617450012FDF2 /* PBXTextBookmark */;
-			9F3100640FB4A50E00F33970 = 9F3100640FB4A50E00F33970 /* PBXTextBookmark */;
-			9F3100680FB4A50E00F33970 = 9F3100680FB4A50E00F33970 /* PBXTextBookmark */;
 			9F3100690FB4A50E00F33970 = 9F3100690FB4A50E00F33970 /* PBXTextBookmark */;
 			9F31006A0FB4A50E00F33970 = 9F31006A0FB4A50E00F33970 /* PBXTextBookmark */;
-			9F31006B0FB4A50E00F33970 = 9F31006B0FB4A50E00F33970 /* PBXTextBookmark */;
-			9F31006C0FB4A50E00F33970 = 9F31006C0FB4A50E00F33970 /* PBXTextBookmark */;
-			9F31006D0FB4A50E00F33970 = 9F31006D0FB4A50E00F33970 /* PBXTextBookmark */;
-			9F31006E0FB4A50E00F33970 = 9F31006E0FB4A50E00F33970 /* PBXTextBookmark */;
-			9F31006F0FB4A50E00F33970 = 9F31006F0FB4A50E00F33970 /* PBXTextBookmark */;
-			9F3100700FB4A50E00F33970 = 9F3100700FB4A50E00F33970 /* PBXTextBookmark */;
-			9F31008A0FB4A7D200F33970 = 9F31008A0FB4A7D200F33970 /* PBXTextBookmark */;
-			9F31008B0FB4A7D200F33970 = 9F31008B0FB4A7D200F33970 /* PBXTextBookmark */;
 			9F3100940FB4A8C600F33970 = 9F3100940FB4A8C600F33970 /* PBXTextBookmark */;
-			9F3100950FB4A8C600F33970 = 9F3100950FB4A8C600F33970 /* PBXTextBookmark */;
 			9F3100960FB4A8C600F33970 = 9F3100960FB4A8C600F33970 /* PBXTextBookmark */;
-			9F3100980FB4A8C600F33970 = 9F3100980FB4A8C600F33970 /* PBXTextBookmark */;
-			9F3100990FB4A8C600F33970 = 9F3100990FB4A8C600F33970 /* PBXTextBookmark */;
-			9F31009A0FB4A8C600F33970 = 9F31009A0FB4A8C600F33970 /* PBXTextBookmark */;
-			9F31009B0FB4A8C600F33970 = 9F31009B0FB4A8C600F33970 /* PBXTextBookmark */;
-			9F31009C0FB4A8C600F33970 = 9F31009C0FB4A8C600F33970 /* PBXTextBookmark */;
-			9F31009D0FB4A8C600F33970 = 9F31009D0FB4A8C600F33970 /* PBXTextBookmark */;
-			9F31009E0FB4A8C600F33970 = 9F31009E0FB4A8C600F33970 /* PBXTextBookmark */;
-			9F31009F0FB4A8C600F33970 = 9F31009F0FB4A8C600F33970 /* PBXTextBookmark */;
-			9F3100A00FB4A8C600F33970 = 9F3100A00FB4A8C600F33970 /* PBXTextBookmark */;
-			9F3100A10FB4A8C600F33970 = 9F3100A10FB4A8C600F33970 /* PBXTextBookmark */;
-			9F3100A20FB4A8C600F33970 = 9F3100A20FB4A8C600F33970 /* PBXTextBookmark */;
-			9F3100A60FB4A9D500F33970 = 9F3100A60FB4A9D500F33970 /* PBXTextBookmark */;
 			9F3100A70FB4A9D500F33970 = 9F3100A70FB4A9D500F33970 /* PBXTextBookmark */;
-			9F3100A80FB4A9D500F33970 = 9F3100A80FB4A9D500F33970 /* PBXTextBookmark */;
-			9F3100A90FB4A9D500F33970 = 9F3100A90FB4A9D500F33970 /* PBXTextBookmark */;
-			9F3100AA0FB4A9D500F33970 = 9F3100AA0FB4A9D500F33970 /* PBXTextBookmark */;
+			9F50419D0FB6222800EE3BCF /* PBXTextBookmark */ = 9F50419D0FB6222800EE3BCF /* PBXTextBookmark */;
+			9F50419E0FB6222800EE3BCF /* PBXTextBookmark */ = 9F50419E0FB6222800EE3BCF /* PBXTextBookmark */;
+			9F50419F0FB6222800EE3BCF /* PBXTextBookmark */ = 9F50419F0FB6222800EE3BCF /* PBXTextBookmark */;
+			9F5041AE0FB6229C00EE3BCF /* PBXTextBookmark */ = 9F5041AE0FB6229C00EE3BCF /* PBXTextBookmark */;
+			9F5041C00FB6236D00EE3BCF /* PBXTextBookmark */ = 9F5041C00FB6236D00EE3BCF /* PBXTextBookmark */;
+			9F5041C30FB6239900EE3BCF /* PBXTextBookmark */ = 9F5041C30FB6239900EE3BCF /* PBXTextBookmark */;
+			9F5041C50FB623C300EE3BCF /* PBXTextBookmark */ = 9F5041C50FB623C300EE3BCF /* PBXTextBookmark */;
 			9F9002B80FB31486002E8F74 = 9F9002B80FB31486002E8F74 /* PlistBookmark */;
 			9F9002F80FB3208B002E8F74 = 9F9002F80FB3208B002E8F74 /* PBXTextBookmark */;
 			9F9002F90FB3208B002E8F74 = 9F9002F90FB3208B002E8F74 /* PBXTextBookmark */;
@@ -151,16 +135,6 @@
 		userBuildSettings = {
 		};
 	};
-	9F0EFB3C0FB617450012FDF2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9F31004E0FB4A1E700F33970 /* SettingsViewController.m */;
-		name = "SettingsViewController.m: 13";
-		rLen = 0;
-		rLoc = 219;
-		rType = 0;
-		vrLen = 1015;
-		vrLoc = 0;
-	};
 	9F31004D0FB4A1E700F33970 /* SettingsViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {762, 857}}";
@@ -174,26 +148,6 @@
 			sepNavSelRange = "{219, 0}";
 			sepNavVisRange = "{0, 1015}";
 		};
-	};
-	9F3100640FB4A50E00F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9F31004E0FB4A1E700F33970 /* SettingsViewController.m */;
-		name = "SettingsViewController.m: 21";
-		rLen = 87;
-		rLoc = 374;
-		rType = 0;
-		vrLen = 1015;
-		vrLoc = 0;
-	};
-	9F3100680FB4A50E00F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* JustTweetAppDelegate.m */;
-		name = "JustTweetAppDelegate.m: 12";
-		rLen = 0;
-		rLoc = 206;
-		rType = 0;
-		vrLen = 1064;
-		vrLoc = 715;
 	};
 	9F3100690FB4A50E00F33970 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -215,86 +169,6 @@
 		vrLen = 1250;
 		vrLoc = 0;
 	};
-	9F31006B0FB4A50E00F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9F31004D0FB4A1E700F33970 /* SettingsViewController.h */;
-		name = "SettingsViewController.h: 20";
-		rLen = 0;
-		rLoc = 508;
-		rType = 0;
-		vrLen = 715;
-		vrLoc = 0;
-	};
-	9F31006C0FB4A50E00F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9F31004E0FB4A1E700F33970 /* SettingsViewController.m */;
-		name = "SettingsViewController.m: 16";
-		rLen = 0;
-		rLoc = 282;
-		rType = 0;
-		vrLen = 1266;
-		vrLoc = 0;
-	};
-	9F31006D0FB4A50E00F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* JustTweetAppDelegate.h */;
-		name = "JustTweetAppDelegate.h: 25";
-		rLen = 0;
-		rLoc = 551;
-		rType = 0;
-		vrLen = 836;
-		vrLoc = 0;
-	};
-	9F31006E0FB4A50E00F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9F31004E0FB4A1E700F33970 /* SettingsViewController.m */;
-		name = "SettingsViewController.m: 21";
-		rLen = 87;
-		rLoc = 374;
-		rType = 0;
-		vrLen = 1015;
-		vrLoc = 0;
-	};
-	9F31006F0FB4A50E00F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
-		name = "TweetViewController.m: 8";
-		rLen = 0;
-		rLoc = 139;
-		rType = 0;
-		vrLen = 1224;
-		vrLoc = 0;
-	};
-	9F3100700FB4A50E00F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9FC38F840FB25E7600A8408F /* TweetViewController.h */;
-		name = "TweetViewController.h: 12";
-		rLen = 70;
-		rLoc = 166;
-		rType = 0;
-		vrLen = 728;
-		vrLoc = 0;
-	};
-	9F31008A0FB4A7D200F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9F31004D0FB4A1E700F33970 /* SettingsViewController.h */;
-		name = "SettingsViewController.h: 12";
-		rLen = 0;
-		rLoc = 238;
-		rType = 0;
-		vrLen = 785;
-		vrLoc = 0;
-	};
-	9F31008B0FB4A7D200F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* JustTweetAppDelegate.m */;
-		name = "JustTweetAppDelegate.m: 14";
-		rLen = 0;
-		rLoc = 244;
-		rType = 0;
-		vrLen = 1082;
-		vrLoc = 0;
-	};
 	9F3100940FB4A8C600F33970 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
@@ -303,16 +177,6 @@
 		rLoc = 431;
 		rType = 0;
 		vrLen = 1224;
-		vrLoc = 0;
-	};
-	9F3100950FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* JustTweetAppDelegate.h */;
-		name = "JustTweetAppDelegate.h: 27";
-		rLen = 0;
-		rLoc = 671;
-		rType = 0;
-		vrLen = 678;
 		vrLoc = 0;
 	};
 	9F3100960FB4A8C600F33970 /* PBXTextBookmark */ = {
@@ -325,126 +189,6 @@
 		vrLen = 728;
 		vrLoc = 0;
 	};
-	9F3100980FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* JustTweetAppDelegate.h */;
-		name = "JustTweetAppDelegate.h: 16";
-		rLen = 0;
-		rLoc = 294;
-		rType = 0;
-		vrLen = 753;
-		vrLoc = 0;
-	};
-	9F3100990FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* JustTweetAppDelegate.m */;
-		name = "JustTweetAppDelegate.m: 52";
-		rLen = 0;
-		rLoc = 287;
-		rType = 0;
-		vrLen = 1134;
-		vrLoc = 590;
-	};
-	9F31009A0FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* JustTweetAppDelegate.h */;
-		name = "JustTweetAppDelegate.h: 14";
-		rLen = 0;
-		rLoc = 294;
-		rType = 0;
-		vrLen = 678;
-		vrLoc = 0;
-	};
-	9F31009B0FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* JustTweetAppDelegate.m */;
-		name = "JustTweetAppDelegate.m: 65";
-		rLen = 0;
-		rLoc = 1520;
-		rType = 0;
-		vrLen = 978;
-		vrLoc = 630;
-	};
-	9F31009C0FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9FC38F840FB25E7600A8408F /* TweetViewController.h */;
-		name = "TweetViewController.h: 26";
-		rLen = 0;
-		rLoc = 722;
-		rType = 0;
-		vrLen = 708;
-		vrLoc = 0;
-	};
-	9F31009D0FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* JustTweetAppDelegate.h */;
-		name = "JustTweetAppDelegate.h: 28";
-		rLen = 0;
-		rLoc = 671;
-		rType = 0;
-		vrLen = 698;
-		vrLoc = 0;
-	};
-	9F31009E0FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
-		name = "TweetViewController.m: 17";
-		rLen = 0;
-		rLoc = 431;
-		rType = 0;
-		vrLen = 1381;
-		vrLoc = 0;
-	};
-	9F31009F0FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* JustTweetAppDelegate.m */;
-		name = "JustTweetAppDelegate.m: 25";
-		rLen = 0;
-		rLoc = 475;
-		rType = 0;
-		vrLen = 1068;
-		vrLoc = 0;
-	};
-	9F3100A00FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
-		name = "TweetViewController.m: 22";
-		rLen = 0;
-		rLoc = 431;
-		rType = 0;
-		vrLen = 1224;
-		vrLoc = 0;
-	};
-	9F3100A10FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* JustTweetAppDelegate.h */;
-		name = "JustTweetAppDelegate.h: 27";
-		rLen = 0;
-		rLoc = 671;
-		rType = 0;
-		vrLen = 678;
-		vrLoc = 0;
-	};
-	9F3100A20FB4A8C600F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9FC38F840FB25E7600A8408F /* TweetViewController.h */;
-		name = "TweetViewController.h: 27";
-		rLen = 0;
-		rLoc = 722;
-		rType = 0;
-		vrLen = 728;
-		vrLoc = 0;
-	};
-	9F3100A60FB4A9D500F33970 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* JustTweetAppDelegate.m */;
-		name = "JustTweetAppDelegate.m: 59";
-		rLen = 16;
-		rLoc = 1375;
-		rType = 0;
-		vrLen = 1068;
-		vrLoc = 0;
-	};
 	9F3100A70FB4A9D500F33970 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 9F31004D0FB4A1E700F33970 /* SettingsViewController.h */;
@@ -455,35 +199,109 @@
 		vrLen = 785;
 		vrLoc = 0;
 	};
-	9F3100A80FB4A9D500F33970 /* PBXTextBookmark */ = {
+	9F50419B0FB6222600EE3BCF /* TweetViewController.m:118 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		functionName = "-myTimerFireMethod:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 118;
+		location = JustTweet;
+		modificationTime = 263594867.484352;
+		state = 2;
+	};
+	9F50419D0FB6222800EE3BCF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* JustTweetAppDelegate.m */;
-		name = "JustTweetAppDelegate.m: 59";
-		rLen = 16;
-		rLoc = 1375;
+		fRef = 9FC38F840FB25E7600A8408F /* TweetViewController.h */;
+		name = "TweetViewController.h: 27";
+		rLen = 0;
+		rLoc = 722;
 		rType = 0;
-		vrLen = 1068;
+		vrLen = 728;
 		vrLoc = 0;
 	};
-	9F3100A90FB4A9D500F33970 /* PBXTextBookmark */ = {
+	9F50419E0FB6222800EE3BCF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 9F31004D0FB4A1E700F33970 /* SettingsViewController.h */;
-		name = "SettingsViewController.h: 12";
+		fRef = 9FC38F840FB25E7600A8408F /* TweetViewController.h */;
+		name = "TweetViewController.h: 27";
 		rLen = 0;
-		rLoc = 238;
+		rLoc = 722;
 		rType = 0;
-		vrLen = 785;
+		vrLen = 728;
 		vrLoc = 0;
 	};
-	9F3100AA0FB4A9D500F33970 /* PBXTextBookmark */ = {
+	9F50419F0FB6222800EE3BCF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 9F31004E0FB4A1E700F33970 /* SettingsViewController.m */;
-		name = "SettingsViewController.m: 13";
+		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		name = "TweetViewController.m: 130";
 		rLen = 0;
-		rLoc = 219;
+		rLoc = 3998;
 		rType = 0;
-		vrLen = 1266;
-		vrLoc = 0;
+		vrLen = 872;
+		vrLoc = 3433;
+	};
+	9F5041AC0FB6229600EE3BCF /* TweetViewController.m:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		functionName = "-tweetButtonPressed:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		location = JustTweet;
+		modificationTime = 263594867.484565;
+		state = 1;
+	};
+	9F5041AE0FB6229C00EE3BCF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		name = "TweetViewController.m: 130";
+		rLen = 0;
+		rLoc = 3998;
+		rType = 0;
+		vrLen = 872;
+		vrLoc = 3433;
+	};
+	9F5041C00FB6236D00EE3BCF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		name = "TweetViewController.m: 122";
+		rLen = 0;
+		rLoc = 3765;
+		rType = 0;
+		vrLen = 874;
+		vrLoc = 3433;
+	};
+	9F5041C30FB6239900EE3BCF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		name = "TweetViewController.m: 97";
+		rLen = 2;
+		rLoc = 3328;
+		rType = 0;
+		vrLen = 1065;
+		vrLoc = 2456;
+	};
+	9F5041C50FB623C300EE3BCF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		name = "TweetViewController.m: 130";
+		rLen = 0;
+		rLoc = 3993;
+		rType = 0;
+		vrLen = 885;
+		vrLoc = 3379;
 	};
 	9F9002B80FB31486002E8F74 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -600,6 +418,8 @@
 		};
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	9FC38F6A0FB25D0100A8408F /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -626,16 +446,16 @@
 	};
 	9FC38F840FB25E7600A8408F /* TweetViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {762, 857}}";
+			sepNavIntBoundsRect = "{{0, 0}, {762, 660}}";
 			sepNavSelRange = "{722, 0}";
 			sepNavVisRange = "{0, 728}";
 		};
 	};
 	9FC38F850FB25E7600A8408F /* TweetViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {966, 3114}}";
-			sepNavSelRange = "{431, 0}";
-			sepNavVisRange = "{0, 1224}";
+			sepNavIntBoundsRect = "{{0, 0}, {1452, 3204}}";
+			sepNavSelRange = "{3993, 0}";
+			sepNavVisRange = "{3379, 885}";
 			sepNavWindowFrame = "{{15, 312}, {748, 561}}";
 		};
 	};

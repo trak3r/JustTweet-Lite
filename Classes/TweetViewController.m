@@ -93,8 +93,8 @@
 							  cancelButtonTitle:@"OK"
 							  otherButtonTitles:nil];
 		[alert show];
-		[alert release];
-		[msg release]; // necessary?
+//		[alert release];
+//		[msg release]; // necessary?
 	}
 	return FALSE;
 }
@@ -125,6 +125,9 @@
 								   selector:@selector(myTimerFireMethod:)
 								   userInfo:nil
 								    repeats:NO];	
+	/*
+	 [self myTimerFireMethod:nil];
+	 */
 }
 
 /*
