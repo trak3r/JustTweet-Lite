@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="76"/>
+			<integer value="70"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -268,15 +268,11 @@
 						<reference key="NSSuperview" ref="788524151"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-						<object class="NSArray" key="IBUIItems">
+						<object class="NSMutableArray" key="IBUIItems">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBUINavigationItem" id="21000908">
 								<reference key="IBUINavigationBar" ref="223081327"/>
 								<string key="IBUITitle">Settings</string>
-								<object class="IBUIBarButtonItem" key="IBUILeftBarButtonItem" id="450086369">
-									<string key="IBUITitle">Cancel</string>
-									<int key="IBUIStyle">1</int>
-								</object>
 								<object class="IBUIBarButtonItem" key="IBUIRightBarButtonItem" id="108851286">
 									<string key="IBUITitle">Save</string>
 									<int key="IBUIStyle">1</int>
@@ -658,30 +654,24 @@
 						<reference key="parent" ref="788524151"/>
 					</object>
 					<object class="IBObjectRecord">
+						<int key="objectID">52</int>
+						<reference key="object" ref="745463604"/>
+						<reference key="parent" ref="788524151"/>
+						<string key="objectName">Settings Table View</string>
+					</object>
+					<object class="IBObjectRecord">
 						<int key="objectID">70</int>
 						<reference key="object" ref="21000908"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="450086369"/>
 							<reference ref="108851286"/>
 						</object>
 						<reference key="parent" ref="223081327"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">71</int>
-						<reference key="object" ref="450086369"/>
-						<reference key="parent" ref="21000908"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">72</int>
 						<reference key="object" ref="108851286"/>
 						<reference key="parent" ref="21000908"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">52</int>
-						<reference key="object" ref="745463604"/>
-						<reference key="parent" ref="788524151"/>
-						<string key="objectName">Settings Table View</string>
 					</object>
 				</object>
 			</object>
@@ -723,7 +713,6 @@
 					<string>61.IBPluginDependency</string>
 					<string>69.IBPluginDependency</string>
 					<string>70.IBPluginDependency</string>
-					<string>71.IBPluginDependency</string>
 					<string>72.IBPluginDependency</string>
 					<string>76.IBEditorWindowLastContentRect</string>
 					<string>76.IBPluginDependency</string>
@@ -773,7 +762,6 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{475, 376}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
@@ -798,7 +786,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">78</int>
+			<int key="maxID">79</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
