@@ -139,7 +139,7 @@
 							<object class="IBUILabel" id="908735390">
 								<reference key="NSNextResponder" ref="927912617"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{20, 12}, {139, 21}}</string>
+								<string key="NSFrame">{{20, 12}, {115, 21}}</string>
 								<reference key="NSSuperview" ref="927912617"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -151,12 +151,12 @@
 								</object>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
-								<float key="IBUIMinimumFontSize">1.000000e+01</float>
+								<float key="IBUIMinimumFontSize">1.400000e+01</float>
 							</object>
 							<object class="IBUITextField" id="909043125">
 								<reference key="NSNextResponder" ref="927912617"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{167, 7}, {133, 31}}</string>
+								<string key="NSFrame">{{143, 7}, {157, 31}}</string>
 								<reference key="NSSuperview" ref="927912617"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -210,7 +210,7 @@
 							<object class="IBUILabel" id="551113771">
 								<reference key="NSNextResponder" ref="644029510"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{20, 11}, {137, 21}}</string>
+								<string key="NSFrame">{{20, 11}, {114, 21}}</string>
 								<reference key="NSSuperview" ref="644029510"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -219,12 +219,12 @@
 								<reference key="IBUITextColor" ref="834263786"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
-								<float key="IBUIMinimumFontSize">1.000000e+01</float>
+								<float key="IBUIMinimumFontSize">1.400000e+01</float>
 							</object>
 							<object class="IBUITextField" id="824074230">
 								<reference key="NSNextResponder" ref="644029510"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{165, 6}, {135, 31}}</string>
+								<string key="NSFrame">{{142, 6}, {158, 31}}</string>
 								<reference key="NSSuperview" ref="644029510"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
