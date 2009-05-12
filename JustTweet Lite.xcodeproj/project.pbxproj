@@ -24,6 +24,7 @@
 		9F9002D20FB31CDD002E8F74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002D10FB31CDD002E8F74 /* QuartzCore.framework */; };
 		9F9002D60FB31CEF002E8F74 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9002D50FB31CEF002E8F74 /* AddressBook.framework */; };
 		9F9002F10FB31ED8002E8F74 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9002F00FB31ED8002E8F74 /* AdViewController.m */; };
+		9FAEFB340FB9D5D5001A73BC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FAEFB330FB9D5D5001A73BC /* Settings.bundle */; };
 		9FC38F6E0FB25D7400A8408F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC38F6D0FB25D7400A8408F /* icon.png */; };
 		9FC38F860FB25E7600A8408F /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		9F9002D50FB31CEF002E8F74 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		9F9002EF0FB31ED8002E8F74 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
 		9F9002F00FB31ED8002E8F74 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
+		9FAEFB330FB9D5D5001A73BC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		9FC38F6D0FB25D7400A8408F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		9FC38F840FB25E7600A8408F /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
 		9FC38F850FB25E7600A8408F /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				9FAEFB330FB9D5D5001A73BC /* Settings.bundle */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				9FC38F6E0FB25D7400A8408F /* icon.png in Resources */,
+				9FAEFB340FB9D5D5001A73BC /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
