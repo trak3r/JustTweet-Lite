@@ -8,8 +8,9 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="59"/>
 			<integer value="55"/>
+			<integer value="70"/>
+			<integer value="59"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -144,7 +145,7 @@
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="IBUIText">Twitter Username</string>
-								<object class="NSFont" key="IBUIFont" id="12929715">
+								<object class="NSFont" key="IBUIFont" id="952068730">
 									<string key="NSName">Helvetica-Bold</string>
 									<double key="NSSize">1.700000e+01</double>
 									<int key="NSfFlags">16</int>
@@ -172,7 +173,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="902050215"/>
 								</object>
-								<object class="NSFont" key="IBUIFont" id="488555363">
+								<object class="NSFont" key="IBUIFont" id="532561355">
 									<string key="NSName">Helvetica</string>
 									<double key="NSSize">1.700000e+01</double>
 									<int key="NSfFlags">16</int>
@@ -225,7 +226,7 @@
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="IBUIText">Twitter Password</string>
-								<reference key="IBUIFont" ref="12929715"/>
+								<reference key="IBUIFont" ref="952068730"/>
 								<reference key="IBUITextColor" ref="834263786"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -246,7 +247,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="902050215"/>
 								</object>
-								<reference key="IBUIFont" ref="488555363"/>
+								<reference key="IBUIFont" ref="532561355"/>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<float key="IBUIMinimumFontSize">1.700000e+01</float>
 								<object class="IBUITextInputTraits" key="IBUITextInputTraits">
@@ -275,7 +276,7 @@
 				<reference key="IBUIContentView" ref="644029510"/>
 			</object>
 			<object class="IBUIView" id="788524151">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -291,10 +292,6 @@
 							<object class="IBUINavigationItem" id="21000908">
 								<reference key="IBUINavigationBar" ref="223081327"/>
 								<string key="IBUITitle">JustTweet</string>
-								<object class="IBUIBarButtonItem" key="IBUIRightBarButtonItem" id="108851286">
-									<string key="IBUITitle">done</string>
-									<int key="IBUIStyle">1</int>
-								</object>
 							</object>
 						</object>
 					</object>
@@ -317,6 +314,7 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 460}</string>
+				<reference key="NSSuperview"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MQA</bytes>
@@ -472,14 +470,6 @@
 						<reference key="destination" ref="788524151"/>
 					</object>
 					<int key="connectionID">77</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">saveButtonPressed:</string>
-						<reference key="source" ref="108851286"/>
-						<reference key="destination" ref="309942362"/>
-					</object>
-					<int key="connectionID">78</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -699,14 +689,8 @@
 						<reference key="object" ref="21000908"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="108851286"/>
 						</object>
 						<reference key="parent" ref="223081327"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">72</int>
-						<reference key="object" ref="108851286"/>
-						<reference key="parent" ref="21000908"/>
 					</object>
 				</object>
 			</object>
@@ -748,7 +732,6 @@
 					<string>61.IBPluginDependency</string>
 					<string>69.IBPluginDependency</string>
 					<string>70.IBPluginDependency</string>
-					<string>72.IBPluginDependency</string>
 					<string>76.IBEditorWindowLastContentRect</string>
 					<string>76.IBPluginDependency</string>
 				</object>
@@ -791,7 +774,6 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{443, 638}, {320, 44}}</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
