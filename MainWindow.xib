@@ -8,8 +8,8 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="55"/>
 			<integer value="59"/>
+			<integer value="55"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -138,12 +138,17 @@
 							<object class="IBUILabel" id="908735390">
 								<reference key="NSNextResponder" ref="927912617"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{20, 10.5}, {140, 21}}</string>
+								<string key="NSFrame">{{20, 10}, {146, 21}}</string>
 								<reference key="NSSuperview" ref="927912617"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="IBUIText">Twitter Username</string>
+								<object class="NSFont" key="IBUIFont" id="12929715">
+									<string key="NSName">Helvetica-Bold</string>
+									<double key="NSSize">1.700000e+01</double>
+									<int key="NSfFlags">16</int>
+								</object>
 								<object class="NSColor" key="IBUITextColor" id="834263786">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MCAwIDAAA</bytes>
@@ -155,19 +160,24 @@
 							<object class="IBUITextField" id="909043125">
 								<reference key="NSNextResponder" ref="927912617"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{167, 7}, {133, 31}}</string>
+								<string key="NSFrame">{{174, 5}, {126, 31}}</string>
 								<reference key="NSSuperview" ref="927912617"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<string key="IBUIText"/>
+								<string key="IBUIPlaceholder">Not Specified</string>
 								<object class="NSColor" key="IBUITextColor">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="902050215"/>
 								</object>
+								<object class="NSFont" key="IBUIFont" id="488555363">
+									<string key="NSName">Helvetica</string>
+									<double key="NSSize">1.700000e+01</double>
+									<int key="NSfFlags">16</int>
+								</object>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
-								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">1.700000e+01</float>
 								<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 									<int key="IBUIReturnKeyType">9</int>
@@ -209,12 +219,13 @@
 							<object class="IBUILabel" id="551113771">
 								<reference key="NSNextResponder" ref="644029510"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{20, 11}, {140, 21}}</string>
+								<string key="NSFrame">{{20, 11}, {146, 21}}</string>
 								<reference key="NSSuperview" ref="644029510"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="IBUIText">Twitter Password</string>
+								<reference key="IBUIFont" ref="12929715"/>
 								<reference key="IBUITextColor" ref="834263786"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -223,19 +234,20 @@
 							<object class="IBUITextField" id="824074230">
 								<reference key="NSNextResponder" ref="644029510"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{168, 6}, {132, 31}}</string>
+								<string key="NSFrame">{{174, 6}, {126.5, 31}}</string>
 								<reference key="NSSuperview" ref="644029510"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<string key="IBUIText"/>
+								<string key="IBUIPlaceholder">Not Specified</string>
 								<object class="NSColor" key="IBUITextColor">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="902050215"/>
 								</object>
+								<reference key="IBUIFont" ref="488555363"/>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
-								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">1.700000e+01</float>
 								<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 									<int key="IBUIReturnKeyType">9</int>
@@ -615,8 +627,8 @@
 						<reference key="object" ref="431070986"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="909043125"/>
 							<reference ref="908735390"/>
+							<reference ref="909043125"/>
 						</object>
 						<reference key="parent" ref="957960031"/>
 						<string key="objectName">Username Table View Cell</string>
@@ -638,8 +650,8 @@
 						<reference key="object" ref="221913659"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="824074230"/>
 							<reference ref="551113771"/>
+							<reference ref="824074230"/>
 						</object>
 						<reference key="parent" ref="957960031"/>
 						<string key="objectName">Password Table View Cell</string>
