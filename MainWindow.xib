@@ -8,7 +8,6 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="72"/>
 			<integer value="55"/>
 			<integer value="59"/>
 		</object>
@@ -139,24 +138,24 @@
 							<object class="IBUILabel" id="908735390">
 								<reference key="NSNextResponder" ref="927912617"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{20, 12}, {115, 21}}</string>
+								<string key="NSFrame">{{20, 10.5}, {140, 21}}</string>
 								<reference key="NSSuperview" ref="927912617"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
-								<string key="IBUIText">Twitter Username:</string>
+								<string key="IBUIText">Twitter Username</string>
 								<object class="NSColor" key="IBUITextColor" id="834263786">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MCAwIDAAA</bytes>
 								</object>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
-								<float key="IBUIMinimumFontSize">1.400000e+01</float>
+								<float key="IBUIMinimumFontSize">1.700000e+01</float>
 							</object>
 							<object class="IBUITextField" id="909043125">
 								<reference key="NSNextResponder" ref="927912617"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{143, 7}, {157, 31}}</string>
+								<string key="NSFrame">{{167, 7}, {133, 31}}</string>
 								<reference key="NSSuperview" ref="927912617"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -210,21 +209,21 @@
 							<object class="IBUILabel" id="551113771">
 								<reference key="NSNextResponder" ref="644029510"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{20, 11}, {114, 21}}</string>
+								<string key="NSFrame">{{20, 11}, {140, 21}}</string>
 								<reference key="NSSuperview" ref="644029510"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
-								<string key="IBUIText">Twitter Password:</string>
+								<string key="IBUIText">Twitter Password</string>
 								<reference key="IBUITextColor" ref="834263786"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
-								<float key="IBUIMinimumFontSize">1.400000e+01</float>
+								<float key="IBUIMinimumFontSize">1.700000e+01</float>
 							</object>
 							<object class="IBUITextField" id="824074230">
 								<reference key="NSNextResponder" ref="644029510"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{142, 6}, {158, 31}}</string>
+								<string key="NSFrame">{{168, 6}, {132, 31}}</string>
 								<reference key="NSSuperview" ref="644029510"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -264,7 +263,7 @@
 				<reference key="IBUIContentView" ref="644029510"/>
 			</object>
 			<object class="IBUIView" id="788524151">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -279,7 +278,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBUINavigationItem" id="21000908">
 								<reference key="IBUINavigationBar" ref="223081327"/>
-								<string key="IBUITitle">Settings</string>
+								<string key="IBUITitle">JustTweet</string>
 								<object class="IBUIBarButtonItem" key="IBUIRightBarButtonItem" id="108851286">
 									<string key="IBUITitle">done</string>
 									<int key="IBUIStyle">1</int>
@@ -306,7 +305,6 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 460}</string>
-				<reference key="NSSuperview"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MQA</bytes>
@@ -776,11 +774,11 @@
 					<string>{{475, 376}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>{{481, 751}, {320, 44}}</string>
+					<string>{{443, 705}, {320, 44}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>{{482, 661}, {320, 44}}</string>
+					<string>{{443, 638}, {320, 44}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
