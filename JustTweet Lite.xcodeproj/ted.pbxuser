@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* JustTweetAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {762, 1368}}";
-			sepNavSelRange = "{1375, 16}";
-			sepNavVisRange = "{0, 1068}";
+			sepNavIntBoundsRect = "{{0, 0}, {820, 1368}}";
+			sepNavSelRange = "{1332, 0}";
+			sepNavVisRange = "{0, 840}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* JustTweet Lite */ = {
@@ -28,7 +28,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Distribution;
 		activeExecutable = 9FC38F600FB25CE200A8408F /* JustTweet Lite */;
 		activeSDKPreference = iphoneos2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* JustTweet Lite */;
@@ -102,38 +102,50 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 263835180;
-			PBXWorkspaceStateSaveDate = 263835180;
+			PBXPerProjectTemplateStateSaveDate = 264964891;
+			PBXWorkspaceStateSaveDate = 264964891;
 		};
 		perUserProjectItems = {
-			9F3100690FB4A50E00F33970 /* PBXTextBookmark */ = 9F3100690FB4A50E00F33970 /* PBXTextBookmark */;
-			9F31006A0FB4A50E00F33970 /* PBXTextBookmark */ = 9F31006A0FB4A50E00F33970 /* PBXTextBookmark */;
-			9F3100A70FB4A9D500F33970 /* PBXTextBookmark */ = 9F3100A70FB4A9D500F33970 /* PBXTextBookmark */;
-			9F50419D0FB6222800EE3BCF /* PBXTextBookmark */ = 9F50419D0FB6222800EE3BCF /* PBXTextBookmark */;
-			9F9002B80FB31486002E8F74 /* PlistBookmark */ = 9F9002B80FB31486002E8F74 /* PlistBookmark */;
-			9F9002F80FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002F80FB3208B002E8F74 /* PBXTextBookmark */;
-			9F9002FA0FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002FA0FB3208B002E8F74 /* PBXTextBookmark */;
-			9F9002FB0FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002FB0FB3208B002E8F74 /* PBXTextBookmark */;
-			9F9002FC0FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002FC0FB3208B002E8F74 /* PBXTextBookmark */;
-			9F9002FD0FB3208B002E8F74 /* PBXTextBookmark */ = 9F9002FD0FB3208B002E8F74 /* PBXTextBookmark */;
-			9FAEFB100FB9D594001A73BC /* PBXTextBookmark */ = 9FAEFB100FB9D594001A73BC /* PBXTextBookmark */;
-			9FAEFB110FB9D594001A73BC /* PBXTextBookmark */ = 9FAEFB110FB9D594001A73BC /* PBXTextBookmark */;
-			9FAEFB130FB9D594001A73BC /* PBXTextBookmark */ = 9FAEFB130FB9D594001A73BC /* PBXTextBookmark */;
-			9FAEFB140FB9D594001A73BC /* PBXTextBookmark */ = 9FAEFB140FB9D594001A73BC /* PBXTextBookmark */;
-			9FAEFB390FB9D704001A73BC /* PBXTextBookmark */ = 9FAEFB390FB9D704001A73BC /* PBXTextBookmark */;
-			9FAEFB3A0FB9D704001A73BC /* PlistBookmark */ = 9FAEFB3A0FB9D704001A73BC /* PlistBookmark */;
-			9FAEFB3C0FB9D704001A73BC /* PlistBookmark */ = 9FAEFB3C0FB9D704001A73BC /* PlistBookmark */;
-			9FAEFB3E0FB9D704001A73BC /* PBXTextBookmark */ = 9FAEFB3E0FB9D704001A73BC /* PBXTextBookmark */;
-			9FAEFB3F0FB9D704001A73BC /* PlistBookmark */ = 9FAEFB3F0FB9D704001A73BC /* PlistBookmark */;
-			9FC38F740FB25DCD00A8408F /* PlistBookmark */ = 9FC38F740FB25DCD00A8408F /* PlistBookmark */;
-			9FC38F8E0FB25EE300A8408F /* PBXTextBookmark */ = 9FC38F8E0FB25EE300A8408F /* PBXTextBookmark */;
-			9FC38F8F0FB25EE300A8408F /* PBXTextBookmark */ = 9FC38F8F0FB25EE300A8408F /* PBXTextBookmark */;
-			9FC38FAE0FB2643F00A8408F /* PBXTextBookmark */ = 9FC38FAE0FB2643F00A8408F /* PBXTextBookmark */;
-			9FC38FD10FB2651600A8408F /* PBXTextBookmark */ = 9FC38FD10FB2651600A8408F /* PBXTextBookmark */;
+			9F0443CC0FCB0B3200FE4A69 /* PBXTextBookmark */ = 9F0443CC0FCB0B3200FE4A69 /* PBXTextBookmark */;
+			9F3100690FB4A50E00F33970 = 9F3100690FB4A50E00F33970 /* PBXTextBookmark */;
+			9F31006A0FB4A50E00F33970 = 9F31006A0FB4A50E00F33970 /* PBXTextBookmark */;
+			9F3100A70FB4A9D500F33970 = 9F3100A70FB4A9D500F33970 /* PBXTextBookmark */;
+			9F50419D0FB6222800EE3BCF = 9F50419D0FB6222800EE3BCF /* PBXTextBookmark */;
+			9F9002B80FB31486002E8F74 = 9F9002B80FB31486002E8F74 /* PlistBookmark */;
+			9F9002F80FB3208B002E8F74 = 9F9002F80FB3208B002E8F74 /* PBXTextBookmark */;
+			9F9002FA0FB3208B002E8F74 = 9F9002FA0FB3208B002E8F74 /* PBXTextBookmark */;
+			9F9002FB0FB3208B002E8F74 = 9F9002FB0FB3208B002E8F74 /* PBXTextBookmark */;
+			9F9002FC0FB3208B002E8F74 = 9F9002FC0FB3208B002E8F74 /* PBXTextBookmark */;
+			9F9002FD0FB3208B002E8F74 = 9F9002FD0FB3208B002E8F74 /* PBXTextBookmark */;
+			9FAEFB110FB9D594001A73BC = 9FAEFB110FB9D594001A73BC /* PBXTextBookmark */;
+			9FAEFB390FB9D704001A73BC = 9FAEFB390FB9D704001A73BC /* PBXTextBookmark */;
+			9FAEFB3C0FB9D704001A73BC = 9FAEFB3C0FB9D704001A73BC /* PlistBookmark */;
+			9FAEFB3E0FB9D704001A73BC = 9FAEFB3E0FB9D704001A73BC /* PBXTextBookmark */;
+			9FC38F740FB25DCD00A8408F = 9FC38F740FB25DCD00A8408F /* PlistBookmark */;
+			9FC38F8E0FB25EE300A8408F = 9FC38F8E0FB25EE300A8408F /* PBXTextBookmark */;
+			9FC38F8F0FB25EE300A8408F = 9FC38F8F0FB25EE300A8408F /* PBXTextBookmark */;
+			9FC38FAE0FB2643F00A8408F = 9FC38FAE0FB2643F00A8408F /* PBXTextBookmark */;
+			9FC38FD10FB2651600A8408F = 9FC38FD10FB2651600A8408F /* PBXTextBookmark */;
+			9FCF93670FC78345005CB995 = 9FCF93670FC78345005CB995 /* PlistBookmark */;
+			9FCF93680FC78345005CB995 = 9FCF93680FC78345005CB995 /* PBXTextBookmark */;
+			9FCF93690FC78345005CB995 = 9FCF93690FC78345005CB995 /* PBXTextBookmark */;
+			9FCF936A0FC78345005CB995 = 9FCF936A0FC78345005CB995 /* PlistBookmark */;
+			9FCF936B0FC78345005CB995 = 9FCF936B0FC78345005CB995 /* PBXTextBookmark */;
+			9FCF93830FC78629005CB995 = 9FCF93830FC78629005CB995 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9FC38F6A0FB25D0100A8408F /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	9F0443CC0FCB0B3200FE4A69 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		name = "TweetViewController.m: 82";
+		rLen = 0;
+		rLoc = 2771;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 3381;
 	};
 	9F31004D0FB4A1E700F33970 /* SettingsViewController.h */ = {
 		uiCtxt = {
@@ -178,6 +190,13 @@
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 0;
+	};
+	9F3966690FC4317700C91A4C /* Root.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = Root.plist;
+		path = "/Users/ted/Desktop/JustTweet Lite/Settings.bundle/Root.plist";
+		sourceTree = "<absolute>";
 	};
 	9F50419B0FB6222600EE3BCF /* TweetViewController.m:118 */ = {
 		isa = PBXFileBreakpoint;
@@ -305,37 +324,7 @@
 		vrLen = 1467;
 		vrLoc = 0;
 	};
-	9FAEFB100FB9D594001A73BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
-		name = "TweetViewController.m: 82";
-		rLen = 0;
-		rLoc = 2771;
-		rType = 0;
-		vrLen = 1307;
-		vrLoc = 2074;
-	};
 	9FAEFB110FB9D594001A73BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9F9002F00FB31ED8002E8F74 /* AdViewController.m */;
-		name = "AdViewController.m: 51";
-		rLen = 0;
-		rLoc = 1769;
-		rType = 0;
-		vrLen = 1364;
-		vrLoc = 1184;
-	};
-	9FAEFB130FB9D594001A73BC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
-		name = "TweetViewController.m: 82";
-		rLen = 0;
-		rLoc = 2771;
-		rType = 0;
-		vrLen = 1307;
-		vrLoc = 2074;
-	};
-	9FAEFB140FB9D594001A73BC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 9F9002F00FB31ED8002E8F74 /* AdViewController.m */;
 		name = "AdViewController.m: 51";
@@ -355,24 +344,6 @@
 		vrLen = 1323;
 		vrLoc = 0;
 	};
-	9FAEFB3A0FB9D704001A73BC /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 9FAEFB3B0FB9D704001A73BC /* Root.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/ted/Desktop/JustTweet Lite/Settings.bundle/Root.plist";
-		rLen = 0;
-		rLoc = 2147483647;
-	};
-	9FAEFB3B0FB9D704001A73BC /* Root.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = Root.plist;
-		path = "/Users/ted/Desktop/JustTweet Lite/Settings.bundle/Root.plist";
-		sourceTree = "<absolute>";
-	};
 	9FAEFB3C0FB9D704001A73BC /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 9FAEFB3D0FB9D704001A73BC /* Root.plist */;
@@ -386,6 +357,7 @@
 	};
 	9FAEFB3D0FB9D704001A73BC /* Root.plist */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
 		name = Root.plist;
 		path = "/Users/ted/Desktop/JustTweet Lite/Settings.bundle/Root.plist";
 		sourceTree = "<absolute>";
@@ -399,23 +371,6 @@
 		rType = 0;
 		vrLen = 1323;
 		vrLoc = 0;
-	};
-	9FAEFB3F0FB9D704001A73BC /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 9FAEFB400FB9D704001A73BC /* Root.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/ted/Desktop/JustTweet Lite/Settings.bundle/Root.plist";
-		rLen = 0;
-		rLoc = 2147483647;
-	};
-	9FAEFB400FB9D704001A73BC /* Root.plist */ = {
-		isa = PBXFileReference;
-		name = Root.plist;
-		path = "/Users/ted/Desktop/JustTweet Lite/Settings.bundle/Root.plist";
-		sourceTree = "<absolute>";
 	};
 	9FC38F600FB25CE200A8408F /* JustTweet Lite */ = {
 		isa = PBXExecutable;
@@ -482,9 +437,9 @@
 	};
 	9FC38F850FB25E7600A8408F /* TweetViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1452, 3060}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1452, 3150}}";
 			sepNavSelRange = "{2771, 0}";
-			sepNavVisRange = "{2074, 1307}";
+			sepNavVisRange = "{3381, 909}";
 			sepNavWindowFrame = "{{15, 312}, {748, 561}}";
 		};
 	};
@@ -527,5 +482,67 @@
 		rType = 0;
 		vrLen = 486;
 		vrLoc = 0;
+	};
+	9FCF93670FC78345005CB995 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 9F3966690FC4317700C91A4C /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/ted/Desktop/JustTweet Lite/Settings.bundle/Root.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	9FCF93680FC78345005CB995 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* JustTweetAppDelegate.m */;
+		name = "JustTweetAppDelegate.m: 56";
+		rLen = 0;
+		rLoc = 1332;
+		rType = 0;
+		vrLen = 840;
+		vrLoc = 0;
+	};
+	9FCF93690FC78345005CB995 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		name = "TweetViewController.m: 82";
+		rLen = 0;
+		rLoc = 2771;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 2074;
+	};
+	9FCF936A0FC78345005CB995 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 9F3966690FC4317700C91A4C /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/ted/Desktop/JustTweet Lite/Settings.bundle/Root.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	9FCF936B0FC78345005CB995 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* JustTweetAppDelegate.m */;
+		name = "JustTweetAppDelegate.m: 56";
+		rLen = 0;
+		rLoc = 1332;
+		rType = 0;
+		vrLen = 840;
+		vrLoc = 0;
+	};
+	9FCF93830FC78629005CB995 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */;
+		name = "TweetViewController.m: 82";
+		rLen = 0;
+		rLoc = 2771;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 3381;
 	};
 }
