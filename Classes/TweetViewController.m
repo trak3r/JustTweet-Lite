@@ -42,12 +42,37 @@
 	[self clearScreen];
 }
 
+// http://stackoverflow.com/questions/958350/how-do-you-url-encode-the-symbol-in-the-iphone-sdk
+- (NSString*)urlEncode:(NSString *)unsafe {
+	NSMutableString *escaped = [NSMutableString stringWithCapacity:33];
+	[escaped setString:[unsafe stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+	[escaped replaceOccurrencesOfString:@"&" withString:@"%26" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@"+" withString:@"%2B" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@"," withString:@"%2C" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@"/" withString:@"%2F" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@":" withString:@"%3A" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@";" withString:@"%3B" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@"=" withString:@"%3D" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@"?" withString:@"%3F" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@"@" withString:@"%40" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@" " withString:@"%20" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@"\t" withString:@"%09" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@"#" withString:@"%23" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@"<" withString:@"%3C" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@">" withString:@"%3E" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@"\"" withString:@"%22" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	[escaped replaceOccurrencesOfString:@"\n" withString:@"%0A" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+	return escaped;
+}
+
 - (BOOL)sendTweet {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	NSURL *url = [NSURL URLWithString:[NSString 
-									   stringWithFormat:@"http://%@:%@@twitter.com/statuses/update.json", 
-									   [defaults objectForKey:kTwitterUsername],
-									   [defaults objectForKey:kTwitterPassword]]];
+	NSString *urlString = [NSString 
+						   stringWithFormat:@"http://%@:%@@twitter.com/statuses/update.json", 
+						   [self urlEncode:[defaults stringForKey:kTwitterUsername]],
+						   [self urlEncode:[defaults stringForKey:kTwitterPassword]]];
+//	NSLog(urlString);
+	NSURL *url = [NSURL URLWithString:urlString];
 	NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
 	[request setHTTPMethod:@"POST"];
 	[request setValue:@"JustTweet iPhone Client" forHTTPHeaderField:@"X-Twitter-Client"];
