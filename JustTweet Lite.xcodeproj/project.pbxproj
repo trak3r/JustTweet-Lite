@@ -300,12 +300,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: thomas davis";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7ACC375D-A8B2-4191-B87B-ADC073344B0C";
 				SDKROOT = iphoneos2.2.1;
 			};
 			name = Distribution;
@@ -314,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Anachromystic";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = JustTweet_Lite_Prefix.pch;
@@ -324,6 +323,7 @@
 					"\"$(SRCROOT)/../../Downloads/admob_iphone_sdk/AdMob\"",
 				);
 				PRODUCT_NAME = JustTweet;
+				PROVISIONING_PROFILE = "1490ED60-230E-44B0-8434-AE558260F1B7";
 			};
 			name = Distribution;
 		};
