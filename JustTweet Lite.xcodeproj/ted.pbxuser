@@ -287,6 +287,12 @@
 		rLoc = 2147483647;
 	};
 	9F9002D00FB31C98002E8F74 /* AdMobView.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = AdMobView.h;
+		path = "/Users/ted/Desktop/JustTweet-Lite/AdMobView.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {759, 720}}";
 			sepNavSelRange = "{0, 0}";
@@ -294,6 +300,12 @@
 		};
 	};
 	9F9002EF0FB31ED8002E8F74 /* AdViewController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = AdViewController.h;
+		path = "/Users/ted/Desktop/JustTweet-Lite/AdViewController.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1272, 660}}";
 			sepNavSelRange = "{0, 0}";
@@ -301,6 +313,12 @@
 		};
 	};
 	9F9002F00FB31ED8002E8F74 /* AdViewController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AdViewController.m;
+		path = "/Users/ted/Desktop/JustTweet-Lite/AdViewController.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1353, 1332}}";
 			sepNavSelRange = "{1769, 0}";
