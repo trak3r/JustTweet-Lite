@@ -13,6 +13,7 @@
 @synthesize countDown;
 @synthesize tweetText;
 @synthesize activityView;
+@synthesize medialetsAdView;
 
 - (void)storeTweet {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -174,6 +175,14 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+	[medialetsAdView prepareWithSlotType:MMBanner320x50
+								slotName:@"Banner Ad" 
+								keywords:[NSArray arrayWithObjects:@"twitter", @"tweet", nil] 
+						andBlockKeywords:nil 
+								 loadNow:YES]; 
+	[medialetsAdView setDelegate:self]; 
+	
 	[tweetText becomeFirstResponder];
 	[self showLastTweet];
 }

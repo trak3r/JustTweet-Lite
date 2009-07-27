@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MMTrackingMgr.h"
+#import "MMAdView.h"
+
 #define kTwitterUsername @"twitter_username"
 #define kTwitterPassword @"twitter_password"
 #define kLastTweet @"last_tweet"

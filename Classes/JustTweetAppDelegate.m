@@ -7,8 +7,6 @@
 //
 
 #import "JustTweetAppDelegate.h"
-#import "MMTrackingMgr.h"
-#import "MMAdView.h"
 
 @implementation JustTweetAppDelegate
 
