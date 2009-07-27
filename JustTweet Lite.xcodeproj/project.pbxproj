@@ -108,7 +108,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9FD99A4D101E1ABB00D00643 /* MMTrackingMgr.h */,
+				9FD99A57101E1B9500D00643 /* Medialets */,
 				32CA4F630368D1EE00C91783 /* JustTweet_Lite_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -128,17 +128,33 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9FD99A49101E1A9400D00643 /* libMMTrackingDevice.a */,
-				9FD99A4A101E1A9400D00643 /* libMMTrackingSimulator.a */,
-				9FD99A47101E1A3B00D00643 /* libsqlite3.dylib */,
-				9FD99A45101E190F00D00643 /* libz.1.2.3.dylib */,
-				9FD99A41101E18C900D00643 /* CoreLocation.framework */,
+				9FD99A58101E1B9F00D00643 /* Medialets */,
 				9F9002A50FB31007002E8F74 /* SystemConfiguration.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FD99A57101E1B9500D00643 /* Medialets */ = {
+			isa = PBXGroup;
+			children = (
+				9FD99A4D101E1ABB00D00643 /* MMTrackingMgr.h */,
+			);
+			name = Medialets;
+			sourceTree = "<group>";
+		};
+		9FD99A58101E1B9F00D00643 /* Medialets */ = {
+			isa = PBXGroup;
+			children = (
+				9FD99A49101E1A9400D00643 /* libMMTrackingDevice.a */,
+				9FD99A4A101E1A9400D00643 /* libMMTrackingSimulator.a */,
+				9FD99A47101E1A3B00D00643 /* libsqlite3.dylib */,
+				9FD99A45101E190F00D00643 /* libz.1.2.3.dylib */,
+				9FD99A41101E18C900D00643 /* CoreLocation.framework */,
+			);
+			name = Medialets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
