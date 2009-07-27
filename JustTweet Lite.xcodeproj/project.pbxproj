@@ -23,6 +23,11 @@
 		9FD99A48101E1A3B00D00643 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A47101E1A3B00D00643 /* libsqlite3.dylib */; };
 		9FD99A4B101E1A9400D00643 /* libMMTrackingDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A49101E1A9400D00643 /* libMMTrackingDevice.a */; };
 		9FD99A4C101E1A9400D00643 /* libMMTrackingSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A4A101E1A9400D00643 /* libMMTrackingSimulator.a */; };
+		9FD99A64101E1C3E00D00643 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A61101E1C3E00D00643 /* AudioToolbox.framework */; };
+		9FD99A65101E1C3E00D00643 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A62101E1C3E00D00643 /* MediaPlayer.framework */; };
+		9FD99A66101E1C3E00D00643 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A63101E1C3E00D00643 /* QuartzCore.framework */; };
+		9FD99A90101E1CA600D00643 /* libMMAdDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A8E101E1CA600D00643 /* libMMAdDevice.a */; };
+		9FD99A91101E1CA600D00643 /* libMMAdSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A8F101E1CA600D00643 /* libMMAdSimulator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +54,12 @@
 		9FD99A49101E1A9400D00643 /* libMMTrackingDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMTrackingDevice.a; path = "../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries/libMMTrackingDevice.a"; sourceTree = SOURCE_ROOT; };
 		9FD99A4A101E1A9400D00643 /* libMMTrackingSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMTrackingSimulator.a; path = "../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries/libMMTrackingSimulator.a"; sourceTree = SOURCE_ROOT; };
 		9FD99A4D101E1ABB00D00643 /* MMTrackingMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTrackingMgr.h; sourceTree = "<group>"; };
+		9FD99A61101E1C3E00D00643 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9FD99A62101E1C3E00D00643 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9FD99A63101E1C3E00D00643 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9FD99A8E101E1CA600D00643 /* libMMAdDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMAdDevice.a; path = "../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries/libMMAdDevice.a"; sourceTree = SOURCE_ROOT; };
+		9FD99A8F101E1CA600D00643 /* libMMAdSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMAdSimulator.a; path = "../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries/libMMAdSimulator.a"; sourceTree = SOURCE_ROOT; };
+		9FD99A95101E1CD300D00643 /* MMAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMAdView.h; path = "../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries/MMAdView.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,11 @@
 				9FD99A48101E1A3B00D00643 /* libsqlite3.dylib in Frameworks */,
 				9FD99A4B101E1A9400D00643 /* libMMTrackingDevice.a in Frameworks */,
 				9FD99A4C101E1A9400D00643 /* libMMTrackingSimulator.a in Frameworks */,
+				9FD99A64101E1C3E00D00643 /* AudioToolbox.framework in Frameworks */,
+				9FD99A65101E1C3E00D00643 /* MediaPlayer.framework in Frameworks */,
+				9FD99A66101E1C3E00D00643 /* QuartzCore.framework in Frameworks */,
+				9FD99A90101E1CA600D00643 /* libMMAdDevice.a in Frameworks */,
+				9FD99A91101E1CA600D00643 /* libMMAdSimulator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +156,8 @@
 		9FD99A57101E1B9500D00643 /* Medialets */ = {
 			isa = PBXGroup;
 			children = (
-				9FD99A4D101E1ABB00D00643 /* MMTrackingMgr.h */,
+				9FD99A93101E1CB600D00643 /* Ads */,
+				9FD99A92101E1CB100D00643 /* Tracking */,
 			);
 			name = Medialets;
 			sourceTree = "<group>";
@@ -148,13 +165,50 @@
 		9FD99A58101E1B9F00D00643 /* Medialets */ = {
 			isa = PBXGroup;
 			children = (
+				9FD99A79101E1C7000D00643 /* Ads */,
+				9FD99A78101E1C6B00D00643 /* Tracking */,
+			);
+			name = Medialets;
+			sourceTree = "<group>";
+		};
+		9FD99A78101E1C6B00D00643 /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				9FD99A41101E18C900D00643 /* CoreLocation.framework */,
 				9FD99A49101E1A9400D00643 /* libMMTrackingDevice.a */,
 				9FD99A4A101E1A9400D00643 /* libMMTrackingSimulator.a */,
 				9FD99A47101E1A3B00D00643 /* libsqlite3.dylib */,
 				9FD99A45101E190F00D00643 /* libz.1.2.3.dylib */,
-				9FD99A41101E18C900D00643 /* CoreLocation.framework */,
 			);
-			name = Medialets;
+			name = Tracking;
+			sourceTree = "<group>";
+		};
+		9FD99A79101E1C7000D00643 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				9FD99A8E101E1CA600D00643 /* libMMAdDevice.a */,
+				9FD99A8F101E1CA600D00643 /* libMMAdSimulator.a */,
+				9FD99A61101E1C3E00D00643 /* AudioToolbox.framework */,
+				9FD99A62101E1C3E00D00643 /* MediaPlayer.framework */,
+				9FD99A63101E1C3E00D00643 /* QuartzCore.framework */,
+			);
+			name = Ads;
+			sourceTree = "<group>";
+		};
+		9FD99A92101E1CB100D00643 /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				9FD99A4D101E1ABB00D00643 /* MMTrackingMgr.h */,
+			);
+			name = Tracking;
+			sourceTree = "<group>";
+		};
+		9FD99A93101E1CB600D00643 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				9FD99A95101E1CD300D00643 /* MMAdView.h */,
+			);
+			name = Ads;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +292,7 @@
 					"\"$(SRCROOT)/../../Downloads/admob_iphone_sdk/AdMob\"",
 					"\"$(SRCROOT)/../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries\"",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = JustTweet;
 			};
 			name = Debug;
