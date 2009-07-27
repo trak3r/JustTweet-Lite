@@ -7,7 +7,7 @@
 //
 
 #import "JustTweetAppDelegate.h"
-//#import "MMTrackingMgr.h"
+#import "MMTrackingMgr.h"
 
 @implementation JustTweetAppDelegate
 
@@ -15,12 +15,9 @@
 @synthesize tweetView;
 @synthesize settingsView;
 
-/*
 + (void)initialize {
-	//[[MMTrackingMgr sharedInstance] startDefaultTrackingWithoutLocation];
-	[[MMTrackingMgr sharedInstance] startDefaultTracking];
+    [[MMTrackingMgr sharedInstance] startDefaultTracking];
 }
-*/
 
 - (BOOL)isNullOrEmpty:(NSString *)key {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
