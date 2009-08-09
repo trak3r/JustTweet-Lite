@@ -14,11 +14,6 @@
 @synthesize tweetView;
 @synthesize settingsView;
 
-+(void)initialize { 
-	[[MMAdManager sharedInstance] initializeAdService]; 
-	[[MMTrackingMgr sharedInstance] startDefaultTracking]; 
-} 
-
 - (BOOL)isNullOrEmpty:(NSString *)key {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	return ((NULL == [defaults objectForKey:key]) 

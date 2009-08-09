@@ -2,15 +2,15 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="7.03">
 	<data>
 		<int key="IBDocument.SystemTarget">528</int>
-		<string key="IBDocument.SystemVersion">9J3050</string>
+		<string key="IBDocument.SystemVersion">9L30</string>
 		<string key="IBDocument.InterfaceBuilderVersion">677</string>
-		<string key="IBDocument.AppKitVersion">949.46</string>
+		<string key="IBDocument.AppKitVersion">949.54</string>
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="25"/>
-			<integer value="59"/>
 			<integer value="55"/>
+			<integer value="59"/>
+			<integer value="25"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -101,27 +101,15 @@
 							<bool key="IBUIUserInteractionEnabled">NO</bool>
 							<int key="IBUIStyle">2</int>
 						</object>
-						<object class="IBUIView" id="1025635096">
-							<reference key="NSNextResponder" ref="826871393"/>
-							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{0, 44}, {320, 50}}</string>
-							<reference key="NSSuperview" ref="826871393"/>
-							<object class="NSColor" key="IBUIBackgroundColor">
-								<int key="NSColorSpace">3</int>
-								<bytes key="NSWhite">MQA</bytes>
-								<object class="NSColorSpace" key="NSCustomColorSpace" id="902050215">
-									<int key="NSID">2</int>
-								</object>
-							</object>
-							<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-						</object>
 					</object>
 					<string key="NSFrameSize">{320, 460}</string>
 					<reference key="NSSuperview"/>
 					<object class="NSColor" key="IBUIBackgroundColor">
 						<int key="NSColorSpace">3</int>
 						<bytes key="NSWhite">MQA</bytes>
-						<reference key="NSCustomColorSpace" ref="902050215"/>
+						<object class="NSColorSpace" key="NSCustomColorSpace" id="902050215">
+							<int key="NSID">2</int>
+						</object>
 					</object>
 					<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				</object>
@@ -484,14 +472,6 @@
 					</object>
 					<int key="connectionID">81</int>
 				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">medialetsAdView</string>
-						<reference key="source" ref="118838968"/>
-						<reference key="destination" ref="1025635096"/>
-					</object>
-					<int key="connectionID">84</int>
-				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -546,7 +526,6 @@
 							<reference ref="540129216"/>
 							<reference ref="586397157"/>
 							<reference ref="264468062"/>
-							<reference ref="1025635096"/>
 						</object>
 						<reference key="parent" ref="118838968"/>
 						<string key="objectName">Tweet View</string>
@@ -683,12 +662,6 @@
 						</object>
 						<reference key="parent" ref="223081327"/>
 					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">83</int>
-						<reference key="object" ref="1025635096"/>
-						<reference key="parent" ref="826871393"/>
-						<string key="objectName">Medialets Ad View</string>
-					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -728,15 +701,13 @@
 					<string>70.IBPluginDependency</string>
 					<string>76.IBEditorWindowLastContentRect</string>
 					<string>76.IBPluginDependency</string>
-					<string>83.CustomClassName</string>
-					<string>83.IBPluginDependency</string>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>UIApplication</string>
 					<string>UIResponder</string>
 					<string>TweetViewController</string>
-					<string>{{381, 276}, {320, 480}}</string>
+					<string>{{327, 276}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSMutableDictionary">
@@ -773,8 +744,6 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{475, 276}, {320, 480}}</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>MMAdView</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>
@@ -824,29 +793,6 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">Classes/JustTweetAppDelegate.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MMAdView</string>
-					<string key="superclassName">UIView</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">dismissInterstitial:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">delegate</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries/MMAdView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">MMTrackingMgr.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -900,14 +846,12 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>activityView</string>
 							<string>countDown</string>
-							<string>medialetsAdView</string>
 							<string>tweetText</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UIActivityIndicatorView</string>
 							<string>UINavigationItem</string>
-							<string>MMAdView</string>
 							<string>UITextView</string>
 						</object>
 					</object>

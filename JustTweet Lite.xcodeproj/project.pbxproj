@@ -18,16 +18,6 @@
 		9FAEFB340FB9D5D5001A73BC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FAEFB330FB9D5D5001A73BC /* Settings.bundle */; };
 		9FC38F6E0FB25D7400A8408F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC38F6D0FB25D7400A8408F /* icon.png */; };
 		9FC38F860FB25E7600A8408F /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38F850FB25E7600A8408F /* TweetViewController.m */; };
-		9FD99A42101E18C900D00643 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A41101E18C900D00643 /* CoreLocation.framework */; };
-		9FD99A46101E190F00D00643 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A45101E190F00D00643 /* libz.1.2.3.dylib */; };
-		9FD99A48101E1A3B00D00643 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A47101E1A3B00D00643 /* libsqlite3.dylib */; };
-		9FD99A4B101E1A9400D00643 /* libMMTrackingDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A49101E1A9400D00643 /* libMMTrackingDevice.a */; };
-		9FD99A4C101E1A9400D00643 /* libMMTrackingSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A4A101E1A9400D00643 /* libMMTrackingSimulator.a */; };
-		9FD99A64101E1C3E00D00643 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A61101E1C3E00D00643 /* AudioToolbox.framework */; };
-		9FD99A65101E1C3E00D00643 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A62101E1C3E00D00643 /* MediaPlayer.framework */; };
-		9FD99A66101E1C3E00D00643 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A63101E1C3E00D00643 /* QuartzCore.framework */; };
-		9FD99A90101E1CA600D00643 /* libMMAdDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A8E101E1CA600D00643 /* libMMAdDevice.a */; };
-		9FD99A91101E1CA600D00643 /* libMMAdSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD99A8F101E1CA600D00643 /* libMMAdSimulator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,18 +38,6 @@
 		9FC38F6D0FB25D7400A8408F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		9FC38F840FB25E7600A8408F /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
 		9FC38F850FB25E7600A8408F /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
-		9FD99A41101E18C900D00643 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		9FD99A45101E190F00D00643 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
-		9FD99A47101E1A3B00D00643 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		9FD99A49101E1A9400D00643 /* libMMTrackingDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMTrackingDevice.a; path = "../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries/libMMTrackingDevice.a"; sourceTree = SOURCE_ROOT; };
-		9FD99A4A101E1A9400D00643 /* libMMTrackingSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMTrackingSimulator.a; path = "../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries/libMMTrackingSimulator.a"; sourceTree = SOURCE_ROOT; };
-		9FD99A4D101E1ABB00D00643 /* MMTrackingMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTrackingMgr.h; sourceTree = "<group>"; };
-		9FD99A61101E1C3E00D00643 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		9FD99A62101E1C3E00D00643 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		9FD99A63101E1C3E00D00643 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		9FD99A8E101E1CA600D00643 /* libMMAdDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMAdDevice.a; path = "../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries/libMMAdDevice.a"; sourceTree = SOURCE_ROOT; };
-		9FD99A8F101E1CA600D00643 /* libMMAdSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMAdSimulator.a; path = "../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries/libMMAdSimulator.a"; sourceTree = SOURCE_ROOT; };
-		9FD99A95101E1CD300D00643 /* MMAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMAdView.h; path = "../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries/MMAdView.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +49,6 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				9F9002A60FB31007002E8F74 /* SystemConfiguration.framework in Frameworks */,
-				9FD99A42101E18C900D00643 /* CoreLocation.framework in Frameworks */,
-				9FD99A46101E190F00D00643 /* libz.1.2.3.dylib in Frameworks */,
-				9FD99A48101E1A3B00D00643 /* libsqlite3.dylib in Frameworks */,
-				9FD99A4B101E1A9400D00643 /* libMMTrackingDevice.a in Frameworks */,
-				9FD99A4C101E1A9400D00643 /* libMMTrackingSimulator.a in Frameworks */,
-				9FD99A64101E1C3E00D00643 /* AudioToolbox.framework in Frameworks */,
-				9FD99A65101E1C3E00D00643 /* MediaPlayer.framework in Frameworks */,
-				9FD99A66101E1C3E00D00643 /* QuartzCore.framework in Frameworks */,
-				9FD99A90101E1CA600D00643 /* libMMAdDevice.a in Frameworks */,
-				9FD99A91101E1CA600D00643 /* libMMAdSimulator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +92,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9FD99A57101E1B9500D00643 /* Medialets */,
 				32CA4F630368D1EE00C91783 /* JustTweet_Lite_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -144,71 +111,12 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9FD99A58101E1B9F00D00643 /* Medialets */,
 				9F9002A50FB31007002E8F74 /* SystemConfiguration.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9FD99A57101E1B9500D00643 /* Medialets */ = {
-			isa = PBXGroup;
-			children = (
-				9FD99A93101E1CB600D00643 /* Ads */,
-				9FD99A92101E1CB100D00643 /* Tracking */,
-			);
-			name = Medialets;
-			sourceTree = "<group>";
-		};
-		9FD99A58101E1B9F00D00643 /* Medialets */ = {
-			isa = PBXGroup;
-			children = (
-				9FD99A79101E1C7000D00643 /* Ads */,
-				9FD99A78101E1C6B00D00643 /* Tracking */,
-			);
-			name = Medialets;
-			sourceTree = "<group>";
-		};
-		9FD99A78101E1C6B00D00643 /* Tracking */ = {
-			isa = PBXGroup;
-			children = (
-				9FD99A41101E18C900D00643 /* CoreLocation.framework */,
-				9FD99A49101E1A9400D00643 /* libMMTrackingDevice.a */,
-				9FD99A4A101E1A9400D00643 /* libMMTrackingSimulator.a */,
-				9FD99A47101E1A3B00D00643 /* libsqlite3.dylib */,
-				9FD99A45101E190F00D00643 /* libz.1.2.3.dylib */,
-			);
-			name = Tracking;
-			sourceTree = "<group>";
-		};
-		9FD99A79101E1C7000D00643 /* Ads */ = {
-			isa = PBXGroup;
-			children = (
-				9FD99A8E101E1CA600D00643 /* libMMAdDevice.a */,
-				9FD99A8F101E1CA600D00643 /* libMMAdSimulator.a */,
-				9FD99A61101E1C3E00D00643 /* AudioToolbox.framework */,
-				9FD99A62101E1C3E00D00643 /* MediaPlayer.framework */,
-				9FD99A63101E1C3E00D00643 /* QuartzCore.framework */,
-			);
-			name = Ads;
-			sourceTree = "<group>";
-		};
-		9FD99A92101E1CB100D00643 /* Tracking */ = {
-			isa = PBXGroup;
-			children = (
-				9FD99A4D101E1ABB00D00643 /* MMTrackingMgr.h */,
-			);
-			name = Tracking;
-			sourceTree = "<group>";
-		};
-		9FD99A93101E1CB600D00643 /* Ads */ = {
-			isa = PBXGroup;
-			children = (
-				9FD99A95101E1CD300D00643 /* MMAdView.h */,
-			);
-			name = Ads;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,9 +199,11 @@
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/../../Downloads/admob_iphone_sdk/AdMob\"",
 					"\"$(SRCROOT)/../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries\"",
+					"\"$(SRCROOT)/../Medialets/mmclients/build/Debug-iphonesimulator\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = JustTweet;
+				SDKROOT = iphoneos3.0;
 			};
 			name = Debug;
 		};
@@ -310,8 +220,10 @@
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/../../Downloads/admob_iphone_sdk/AdMob\"",
 					"\"$(SRCROOT)/../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries\"",
+					"\"$(SRCROOT)/../Medialets/mmclients/build/Debug-iphonesimulator\"",
 				);
 				PRODUCT_NAME = JustTweet;
+				SDKROOT = iphoneos3.0;
 			};
 			name = Release;
 		};
@@ -341,9 +253,11 @@
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/../../Downloads/admob_iphone_sdk/AdMob\"",
 					"\"$(SRCROOT)/../../Downloads/Medialets Tracking w-Ads 2.0.21/Libraries\"",
+					"\"$(SRCROOT)/../Medialets/mmclients/build/Debug-iphonesimulator\"",
 				);
 				PRODUCT_NAME = JustTweet;
 				PROVISIONING_PROFILE = "1490ED60-230E-44B0-8434-AE558260F1B7";
+				SDKROOT = iphoneos3.0;
 			};
 			name = Distribution;
 		};
